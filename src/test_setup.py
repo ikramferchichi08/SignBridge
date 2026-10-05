@@ -10,10 +10,12 @@ from pathlib import Path
 import cv2
 import mlflow
 import torch
-import yaml
-from mediapipe.python.solutions import drawing_utils, holistic
+import mediapipe as mp
 
 from src.utils.mlflow_utils import start_configured_run
+
+drawing_utils = mp.solutions.drawing_utils
+holistic = mp.solutions.holistic
 
 
 def print_versions() -> None:
