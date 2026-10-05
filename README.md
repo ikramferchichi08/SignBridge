@@ -84,6 +84,28 @@ mlflow ui --backend-store-uri .\mlruns
 
 Open the displayed local URL in a browser.
 
+## Data
+
+Step 2a uses the WLASL subset published at
+[Hugging Face](https://huggingface.co/datasets/Voxel51/WLASL), based on the
+[original WLASL project](https://dxli94.github.io/WLASL/). The dataset is
+intended for academic and computational use only under the Computational Use
+of Data Agreement; it must not be used commercially.
+
+The current bounded subset contains 500 videos across 100 signs. Raw videos
+and metadata are DVC-managed and are never committed to Git. Reproduce or
+retrieve the data with:
+
+```powershell
+python src/data/download_wlasl.py --max-samples 500 --top-k-signs 100
+dvc pull
+python src/data/explore_wlasl.py
+```
+
+The metadata includes sign labels, signer IDs, original splits, and basic video
+properties. Because signer IDs are available, signer-aware train/validation/test
+splitting is feasible and required for honest evaluation.
+
 ## Folder structure
 
 ```text

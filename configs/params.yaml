@@ -1,9 +1,11 @@
 experiment_name: signbridge
 sequence_length: 32
-num_signs: null
+num_signs: 100
 seed: 42
 paths:
   raw_data: data/raw
   landmarks: data/landmarks
   processed_data: data/processed
   models: models
+  wlasl_raw: data/raw/wlasl
+  wlasl_metadata: data/raw/wlasl/metadata.csv

@@ -22,10 +22,18 @@ data/landmarks/*
 data/processed/*
 models/*
 !data/raw/.gitkeep
+!data/raw/*.dvc
 !data/landmarks/.gitkeep
+!data/landmarks/*.dvc
 !data/processed/.gitkeep
+!data/processed/*.dvc
 !models/.gitkeep
+!models/*.dvc
 *.dvc
+!data/raw/*.dvc
+!data/landmarks/*.dvc
+!data/processed/*.dvc
+!models/*.dvc
 !.dvc
 !.dvc/**
 
