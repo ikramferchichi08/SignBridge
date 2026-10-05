@@ -10,8 +10,8 @@ Sentence generation and speech are optional extensions.
 
 | Student | Responsibilities |
 | --- | --- |
-| Student A: `<name>` | Dataset preparation, landmark extraction, normalization, model training, comparison, and MLflow |
-| Student B: `<name>` | Live pipeline, temporal smoothing, DVC pipeline, API, frontend, Docker, and drift monitoring |
+|Ikram ferchichi | Dataset preparation, landmark extraction, normalization, model training, comparison, and MLflow |
+| Malak ghannouchi | Live pipeline, temporal smoothing, DVC pipeline, API, frontend, Docker, and drift monitoring |
 | Both | Evaluation, custom signer clips, report, and presentation |
 
 ## Setup
