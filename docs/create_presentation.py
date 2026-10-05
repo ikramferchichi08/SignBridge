@@ -9,7 +9,7 @@ from pptx.enum.shapes import MSO_SHAPE
 from pptx.util import Inches, Pt
 
 
-OUT = Path(__file__).with_name("SignBridge_First_Evaluation.pptx")
+OUT = Path(__file__).with_name("SignBridge_First_Evaluation_Improved.pptx")
 NAVY = RGBColor(12, 31, 54)
 BLUE = RGBColor(34, 126, 230)
 TEAL = RGBColor(30, 184, 166)
@@ -168,8 +168,33 @@ def build():
             textbox(slide, "→", x + 1.9, 3.15, 0.35, 0.35, size=25, color=ORANGE, bold=True, align=PP_ALIGN.CENTER)
     textbox(slide, "Practice mode: learners can repeat a sign and check whether the system recognizes it correctly.", 1.0, 5.55, 11.0, 0.35, size=17, color=BLUE, bold=True, align=PP_ALIGN.CENTER)
 
-    # 4. AI components
-    slide = base_slide(prs, "AI components and model comparison", 4, "1:30")
+    # 4. Implementation plan
+    slide = base_slide(prs, "How we will build the system", 4, "1:15")
+    panel(slide, 0.65, 1.3, 12.0, 4.95)
+    architecture = [
+        ("Video frame", "Webcam / uploaded clip", BLUE),
+        ("Landmarks", "Hands + pose + face", TEAL),
+        ("Sequence", "Normalize + 32 frames", ORANGE),
+        ("Classifier", "GRU / Transformer", BLUE),
+        ("Transcript", "Smooth + confidence", TEAL),
+    ]
+    for i, (title, description, color) in enumerate(architecture):
+        x = 0.9 + i * 2.35
+        panel(slide, x, 1.95, 1.9, 2.45, fill=WHITE)
+        slide.shapes.add_shape(MSO_SHAPE.OVAL, Inches(x + 0.58), Inches(2.2), Inches(0.72), Inches(0.72)).fill.solid()
+        circle = slide.shapes[-1]
+        circle.fill.fore_color.rgb = color
+        circle.line.fill.background()
+        textbox(slide, str(i + 1), x + 0.58, 2.31, 0.72, 0.3, size=17, color=WHITE, bold=True, align=PP_ALIGN.CENTER)
+        textbox(slide, title, x + 0.1, 3.15, 1.7, 0.35, size=17, bold=True, align=PP_ALIGN.CENTER)
+        textbox(slide, description, x + 0.15, 3.72, 1.6, 0.5, size=13, color=MID, align=PP_ALIGN.CENTER)
+        if i < 4:
+            textbox(slide, "→", x + 1.95, 3.0, 0.35, 0.35, size=23, color=ORANGE, bold=True, align=PP_ALIGN.CENTER)
+    textbox(slide, "Implementation principle: keep the live path lightweight; use heavier video models as an accuracy reference.", 1.0, 5.1, 11.2, 0.4, size=17, color=BLUE, bold=True, align=PP_ALIGN.CENTER)
+    textbox(slide, "The same preprocessing and signer-aware split are used for every model, so the comparison is fair.", 1.0, 5.65, 11.2, 0.35, size=15, color=MID, align=PP_ALIGN.CENTER)
+
+    # 5. AI components
+    slide = base_slide(prs, "AI components and model comparison", 5, "1:20")
     columns = [
         ("Representation", ["MediaPipe Holistic", "Hands + pose comparison", "Normalize around shoulders", "32–64 frame sequences"], BLUE),
         ("Models", ["Landmarks + GRU", "Landmarks + light Transformer", "CNN + LSTM on frames", "Pretrained video model"], TEAL),
@@ -182,8 +207,8 @@ def build():
         bullet_box(slide, items, x + 0.25, 2.35, 3.3, 2.8, size=17)
     textbox(slide, "Why multiple models? We want an honest accuracy–latency trade-off, not only the highest offline score.", 1.0, 6.42, 11.2, 0.35, size=17, color=NAVY, bold=True, align=PP_ALIGN.CENTER)
 
-    # 5. Workflow
-    slide = base_slide(prs, "Complete workflow: data to deployment", 5, "2:00")
+    # 6. Workflow
+    slide = base_slide(prs, "Complete workflow: data to deployment", 6, "1:45")
     labels = [("Collect", BLUE), ("Version", TEAL), ("Extract", BLUE), ("Train", ORANGE), ("Compare", TEAL), ("Deploy", BLUE)]
     for i, (label, color) in enumerate(labels):
         add_flow_node(slide, label, 0.65 + i * 2.1, color)
@@ -196,8 +221,8 @@ def build():
     textbox(slide, "parameters • metrics • confusion matrices • artifacts", 7.7, 5.03, 4.1, 0.45, size=17, bold=True)
     textbox(slide, "Signer-aware split prevents data leakage and gives an honest generalization result.", 1.0, 6.35, 11.2, 0.35, size=17, color=BLUE, bold=True, align=PP_ALIGN.CENTER)
 
-    # 6. Evaluation
-    slide = base_slide(prs, "Evaluation plan and expected results", 6, "1:30")
+    # 7. Evaluation
+    slide = base_slide(prs, "Evaluation plan and expected results", 7, "1:20")
     panel(slide, 0.7, 1.35, 5.7, 4.95)
     textbox(slide, "Metrics", 1.0, 1.72, 4.8, 0.4, size=24, color=BLUE, bold=True)
     bullet_box(slide, [
@@ -217,8 +242,8 @@ def build():
     ], 7.18, 2.35, 4.85, 2.8, size=19, color=WHITE)
     textbox(slide, "We will report limitations, not hide failure cases.", 7.18, 5.5, 4.7, 0.35, size=16, color=RGBColor(203, 224, 238), bold=True)
 
-    # 7. Tools and requirements
-    slide = base_slide(prs, "Tools mapped to the professor's requirements", 7, "1:00")
+    # 8. Tools and requirements
+    slide = base_slide(prs, "Tools mapped to the professor's requirements", 8, "0:55")
     rows = [
         ("Version control", "GitHub", "Branches, issues, pull requests, visible contributions"),
         ("Data versioning", "DVC", "Reproducible data and model artifacts"),
@@ -235,8 +260,8 @@ def build():
         y += 0.9
     textbox(slide, "All selected tools are free/open-source and designed to run on a normal laptop.", 1.0, 6.35, 11.2, 0.35, size=17, color=BLUE, bold=True, align=PP_ALIGN.CENTER)
 
-    # 8. Team and progress
-    slide = base_slide(prs, "Team roles and continuous progress", 8, "0:45")
+    # 9. Team and progress
+    slide = base_slide(prs, "Team roles and continuous progress", 9, "0:45")
     panel(slide, 0.7, 1.4, 5.8, 4.95)
     textbox(slide, "Student A  •  Vision / ML", 1.0, 1.78, 4.9, 0.4, size=23, color=BLUE, bold=True)
     bullet_box(slide, [
@@ -255,8 +280,8 @@ def build():
     ], 7.15, 2.45, 4.95, 2.8, size=18)
     textbox(slide, "Both: evaluation, custom clips, report, and presentation", 1.0, 6.45, 11.2, 0.3, size=17, color=ORANGE, bold=True, align=PP_ALIGN.CENTER)
 
-    # 9. Closing
-    slide = base_slide(prs, "What success looks like", 9, "0:30")
+    # 10. Closing
+    slide = base_slide(prs, "What success looks like", 10, "0:25")
     panel(slide, 1.0, 1.55, 11.3, 3.8, fill=NAVY, line=NAVY)
     textbox(slide, "A useful, measurable, reproducible assistant", 1.45, 2.05, 10.4, 0.55, size=29, color=WHITE, bold=True, align=PP_ALIGN.CENTER)
     textbox(slide, "Recognize isolated signs  •  compare models honestly  •  run in real time", 1.45, 2.95, 10.4, 0.4, size=20, color=RGBColor(206, 232, 244), align=PP_ALIGN.CENTER)
