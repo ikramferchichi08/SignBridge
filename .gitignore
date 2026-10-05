@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+.env
+
+# Experiment tracking and local artifacts
+mlruns/
+mlartifacts/
+
+# DVC-managed data and model artifacts
+data/raw/*
+data/landmarks/*
+data/processed/*
+models/*
+!data/raw/.gitkeep
+!data/landmarks/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+*.dvc
+!.dvc
+!.dvc/**
+
+# Editors and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

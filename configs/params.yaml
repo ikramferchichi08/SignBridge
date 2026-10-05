@@ -1,0 +1,9 @@
+experiment_name: signbridge
+sequence_length: 32
+num_signs: null
+seed: 42
+paths:
+  raw_data: data/raw
+  landmarks: data/landmarks
+  processed_data: data/processed
+  models: models
