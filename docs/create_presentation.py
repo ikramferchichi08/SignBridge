@@ -118,7 +118,7 @@ def build():
             size=30, color=RGBColor(220, 239, 250), bold=True)
     textbox(slide, "Project Module  •  First evaluation  •  10-minute presentation",
             0.88, 4.15, 7.4, 0.4, size=17, color=RGBColor(173, 205, 225))
-    textbox(slide, "Student A: <name>     |     Student B: <name>",
+    textbox(slide, "Student A: Ikram Ferchichi     |     Student B: Malak Ghannouchi",
             0.88, 5.35, 7.4, 0.35, size=16, color=WHITE)
     textbox(slide, "From landmarks to a live transcript", 0.88, 6.65, 6.5, 0.3,
             size=13, color=TEAL, bold=True)
