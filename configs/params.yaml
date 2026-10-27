@@ -7,5 +7,12 @@ paths:
   landmarks: data/landmarks
   processed_data: data/processed
   models: models
-  wlasl_raw: data/raw/wlasl
-  wlasl_metadata: data/raw/wlasl/metadata.csv
+dataset:
+  name: wlasl
+  metadata: data/raw/wlasl/metadata.csv
+  split: stratified_group_kfold   # group = signer_id, stratified by sign
+  n_folds: 5
+extraction:
+  max_side: 640          # frames are downscaled before MediaPipe (landmarks are normalized)
+  model_complexity: 1    # MediaPipe Holistic: 0 fast, 1 default, 2 accurate
+  face: subset           # subset = lips + eyebrows (60 points), none = no face
