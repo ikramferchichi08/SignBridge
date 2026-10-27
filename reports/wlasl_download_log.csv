@@ -1,0 +1,1349 @@
+video_id,gloss,host,status,detail
+17732,drink,www.aslpro.com,failed,HTTP Error 404: Not Found
+17734,drink,www.aslsearch.com,failed,downloaded file is too small
+17715,drink,www.handspeak.com,failed,HTTP Error 404: Not Found
+17714,drink,www.handspeak.com,failed,HTTP Error 404: Not Found
+17717,drink,www.handspeak.com,failed,HTTP Error 404: Not Found
+17716,drink,www.handspeak.com,failed,HTTP Error 404: Not Found
+68538,drink,www.youtube.com,failed,[0;31mERROR:[0m [youtube] HZMTQJdBZ9g: This video is unavailable
+17726,drink,www.youtube.com,failed,[0;31mERROR:[0m [youtube] 6gU3Ln98sWA: This video is unavailable
+17727,drink,www.youtube.com,failed,[0;31mERROR:[0m [youtube] Ddd2ZZNFhVI: This video is unavailable
+68660,drink,www.youtube.com,failed,[0;31mERROR:[0m [youtube] Lk2Vws8homw: This video is unavailable
+17718,drink,www.handspeak.com,failed,HTTP Error 404: Not Found
+17719,drink,www.handspeak.com,failed,HTTP Error 404: Not Found
+67594,drink,youtu.be,failed,"[0;31mERROR:[0m [youtube] yawcLQIhQiE: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+17722,drink,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+17720,drink,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+17721,drink,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+17723,drink,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+17724,drink,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+69054,computer,www.youtube.com,failed,[0;31mERROR:[0m [youtube] YEFd7zsUNXU: This video is unavailable
+12332,computer,www.youtube.com,failed,[0;31mERROR:[0m [youtube] lVo6MByRMHY: This video is unavailable
+68028,computer,www.youtube.com,ok,
+12306,computer,www.youtube.com,ok,
+12336,computer,www.youtube.com,failed,[0;31mERROR:[0m [youtube] -wmqgdmwySo: This video is unavailable
+12330,computer,www.youtube.com,ok,
+12329,computer,www.youtube.com,ok,
+12331,computer,www.youtube.com,ok,
+12337,computer,www.aslpro.com,failed,HTTP Error 404: Not Found
+12333,computer,www.youtube.com,ok,
+12314,computer,signstock.blob.core.windows.net,ok,
+12316,computer,signstock.blob.core.windows.net,ok,
+12335,computer,www.youtube.com,ok,
+12317,computer,signstock.blob.core.windows.net,ok,
+12315,computer,signstock.blob.core.windows.net,ok,
+12321,computer,www.handspeak.com,failed,HTTP Error 404: Not Found
+12322,computer,www.handspeak.com,failed,HTTP Error 404: Not Found
+67519,computer,youtu.be,failed,"[0;31mERROR:[0m [youtube] u1xoXux2NaE: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+12323,computer,www.handspeak.com,failed,HTTP Error 404: Not Found
+12320,computer,media.asldeafined.com,ok,
+12324,computer,www.handspeak.com,failed,HTTP Error 404: Not Found
+12326,computer,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+12318,computer,signstock.blob.core.windows.net,ok,
+12327,computer,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+12319,computer,signstock.blob.core.windows.net,ok,
+05724,before,www.youtube.com,ok,
+05744,before,www.youtube.com,ok,
+05748,before,www.aslpro.com,failed,HTTP Error 404: Not Found
+65167,before,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+05746,before,www.youtube.com,ok,
+68007,before,www.youtube.com,ok,
+05734,before,media.asldeafined.com,ok,
+05732,before,media.asldeafined.com,ok,
+05735,before,www.handspeak.com,failed,HTTP Error 404: Not Found
+05733,before,media.asldeafined.com,ok,
+05736,before,www.handspeak.com,failed,HTTP Error 404: Not Found
+05737,before,www.handspeak.com,failed,HTTP Error 404: Not Found
+05731,before,signstock.blob.core.windows.net,ok,
+05739,before,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+05740,before,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+05741,before,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+05742,before,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+05747,before,www.youtube.com,ok,
+05743,before,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+24961,go,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+05727,before,s3-us-west-1.amazonaws.com,ok,
+24962,go,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+68292,go,www.youtube.com,failed,[0;31mERROR:[0m [youtube] 7IkKMzvSsFM: This video is unavailable
+24965,go,www.youtube.com,failed,[0;31mERROR:[0m [youtube] jknOnIhAbNo: This video is unavailable
+24857,go,www.youtube.com,ok,
+24971,go,www.youtube.com,failed,[0;31mERROR:[0m [youtube] ZyL9f_qoGug: This video is unavailable
+24972,go,www.aslpro.com,failed,HTTP Error 404: Not Found
+65824,go,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+24973,go,www.aslsearch.com,failed,downloaded file is too small
+24947,go,media.asldeafined.com,ok,
+24943,go,signstock.blob.core.windows.net,ok,
+24948,go,www.handspeak.com,failed,HTTP Error 404: Not Found
+24940,go,media.spreadthesign.com,ok,
+70348,before,www.youtube.com,ok,
+24946,go,signstock.blob.core.windows.net,ok,
+24951,go,www.handspeak.com,failed,HTTP Error 404: Not Found
+24950,go,www.handspeak.com,failed,HTTP Error 404: Not Found
+67715,go,youtu.be,failed,"[0;31mERROR:[0m [youtube] QfVrSA3yrSc: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+24952,go,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+24954,go,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+68890,who,www.youtube.com,failed,[0;31mERROR:[0m [youtube] SQUHKsHMUiw: This video is unavailable
+24970,go,www.youtube.com,ok,
+24969,go,www.youtube.com,ok,
+63219,who,www.youtube.com,ok,
+68183,who,www.youtube.com,ok,
+63241,who,www.aslpro.com,failed,HTTP Error 404: Not Found
+66778,who,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+63231,who,media.asldeafined.com,ok,
+63233,who,www.handspeak.com,failed,HTTP Error 404: Not Found
+63232,who,media.asldeafined.com,ok,
+66779,who,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+63229,who,signstock.blob.core.windows.net,ok,
+63234,who,www.handspeak.com,failed,HTTP Error 404: Not Found
+66780,who,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+63230,who,signstock.blob.core.windows.net,ok,
+63240,who,www.youtube.com,ok,
+63239,who,www.youtube.com,ok,
+63225,who,media.spreadthesign.com,ok,
+63237,who,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+63236,who,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+67066,who,youtu.be,failed,"[0;31mERROR:[0m [youtube] gDkZ2Zn3Sjg: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+63238,who,www.youtube.com,failed,[0;31mERROR:[0m [youtube] dnDu1DxXWo4: This video is unavailable
+08928,candy,www.aslpro.com,failed,HTTP Error 404: Not Found
+68790,candy,www.youtube.com,failed,[0;31mERROR:[0m [youtube] PfobLrBH5G8: This video is unavailable
+08921,candy,media.asldeafined.com,ok,
+08922,candy,www.handspeak.com,failed,HTTP Error 404: Not Found
+65298,candy,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+08909,candy,www.youtube.com,ok,
+08924,candy,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+65299,candy,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+68018,candy,www.youtube.com,ok,
+08923,candy,www.handspeak.com,failed,HTTP Error 404: Not Found
+65300,candy,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+08915,candy,media.spreadthesign.com,ok,
+08925,candy,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+67468,candy,youtu.be,failed,"[0;31mERROR:[0m [youtube] kymMYu5qPhY: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+67470,candy,youtu.be,failed,"[0;31mERROR:[0m [youtube] xK2QEO7Xld4: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+08920,candy,signstock.blob.core.windows.net,ok,
+68592,cousin,www.youtube.com,failed,[0;31mERROR:[0m [youtube] jC6sHiZBEyI: This video is unavailable
+70326,candy,www.youtube.com,ok,
+13633,cousin,signstock.blob.core.windows.net,ok,
+13634,cousin,media.asldeafined.com,ok,
+13637,cousin,www.handspeak.com,failed,HTTP Error 404: Not Found
+13635,cousin,media.asldeafined.com,ok,
+13636,cousin,media.asldeafined.com,ok,
+08926,candy,www.youtube.com,ok,
+13638,cousin,www.handspeak.com,failed,HTTP Error 404: Not Found
+13630,cousin,media.spreadthesign.com,ok,
+13639,cousin,www.handspeak.com,failed,HTTP Error 404: Not Found
+08927,candy,www.youtube.com,ok,
+13640,cousin,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+70332,cousin,www.youtube.com,ok,
+13644,cousin,www.aslpro.com,failed,HTTP Error 404: Not Found
+67535,cousin,youtu.be,failed,"[0;31mERROR:[0m [youtube] mBNbzPNTVqk: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+13641,cousin,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+13642,cousin,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+13645,cousin,www.aslpro.com,failed,HTTP Error 404: Not Found
+13646,cousin,www.aslsearch.com,failed,downloaded file is too small
+68586,deaf,www.youtube.com,failed,[0;31mERROR:[0m [youtube] J9hiREjgVe0: This video is unavailable
+14900,deaf,www.youtube.com,failed,[0;31mERROR:[0m [youtube] YsLUNOu9jXU: This video is unavailable
+14901,deaf,www.aslpro.com,failed,HTTP Error 404: Not Found
+14855,deaf,www.youtube.com,ok,
+65445,deaf,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+13643,cousin,www.youtube.com,ok,
+68033,deaf,www.youtube.com,ok,
+14886,deaf,signstock.blob.core.windows.net,ok,
+14889,deaf,www.handspeak.com,failed,HTTP Error 404: Not Found
+14891,deaf,www.handspeak.com,failed,HTTP Error 404: Not Found
+14887,deaf,media.asldeafined.com,ok,
+14888,deaf,media.asldeafined.com,ok,
+14894,deaf,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+14893,deaf,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+14895,deaf,www.youtube.com,failed,[0;31mERROR:[0m [youtube] 5Dr7V1fbTFU: This video is unavailable
+14899,deaf,www.youtube.com,ok,
+27220,help,www.aslpro.com,failed,HTTP Error 404: Not Found
+27219,help,www.youtube.com,failed,[0;31mERROR:[0m [youtube] RStYX5OXPjE: This video is unavailable
+27210,help,www.handspeak.com,failed,HTTP Error 404: Not Found
+27209,help,media.asldeafined.com,ok,
+70015,deaf,www.youtube.com,ok,
+27194,help,www.youtube.com,ok,
+65890,help,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+27211,help,www.handspeak.com,failed,HTTP Error 404: Not Found
+27212,help,www.handspeak.com,failed,HTTP Error 404: Not Found
+27213,help,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+65889,help,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+65891,help,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+27214,help,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+27216,help,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+27215,help,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+27217,help,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+14896,deaf,www.youtube.com,ok,
+67757,help,youtu.be,failed,"[0;31mERROR:[0m [youtube] OWXmFhatan8: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+27218,help,www.youtube.com,failed,[0;31mERROR:[0m [youtube] l31UXgChCS4: This video is unavailable
+68406,no,www.youtube.com,failed,[0;31mERROR:[0m [youtube] Dd95RFhtSs4: This video is unavailable
+38482,no,www.youtube.com,ok,
+38542,no,www.aslpro.com,failed,HTTP Error 404: Not Found
+14898,deaf,www.youtube.com,ok,
+38531,no,www.handspeak.com,failed,HTTP Error 404: Not Found
+68110,no,www.youtube.com,ok,
+38539,no,www.youtube.com,ok,
+38532,no,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+38530,no,media.asldeafined.com,ok,
+66183,no,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+38524,no,media.spreadthesign.com,ok,
+38533,no,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+38534,no,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+38540,no,www.youtube.com,ok,
+67934,no,youtu.be,failed,"[0;31mERROR:[0m [youtube] jGsh6zd3eUQ: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+57952,thin,www.aslpro.com,failed,HTTP Error 404: Not Found
+38536,no,www.youtube.com,failed,[0;31mERROR:[0m [youtube] lgNwgl10VSg: This video is unavailable
+38538,no,www.youtube.com,ok,
+38541,no,www.youtube.com,ok,
+57936,thin,signstock.blob.core.windows.net,ok,
+66606,thin,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+57919,thin,www.youtube.com,ok,
+57937,thin,signstock.blob.core.windows.net,ok,
+66607,thin,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+57933,thin,media.spreadthesign.com,ok,
+57942,thin,media.asldeafined.com,ok,
+57950,thin,www.youtube.com,ok,
+57941,thin,signstock.blob.core.windows.net,ok,
+57940,thin,signstock.blob.core.windows.net,ok,
+57944,thin,www.handspeak.com,failed,HTTP Error 404: Not Found
+57939,thin,signstock.blob.core.windows.net,ok,
+67299,thin,youtu.be,failed,"[0;31mERROR:[0m [youtube] LCJYxgYwsVE: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+57945,thin,www.handspeak.com,failed,HTTP Error 404: Not Found
+57947,thin,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+57943,thin,media.asldeafined.com,ok,
+62174,walk,www.aslpro.com,failed,HTTP Error 404: Not Found
+68852,walk,www.youtube.com,failed,[0;31mERROR:[0m [youtube] r9Rten33zC8: This video is unavailable
+68918,walk,www.youtube.com,failed,[0;31mERROR:[0m [youtube] tRJ29Rh8pGg: This video is unavailable
+66743,walk,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+62165,walk,www.handspeak.com,failed,HTTP Error 404: Not Found
+66742,walk,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+62166,walk,www.handspeak.com,failed,HTTP Error 404: Not Found
+62158,walk,media.spreadthesign.com,ok,
+62168,walk,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+62152,walk,www.youtube.com,ok,
+62169,walk,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+67036,walk,youtu.be,failed,"[0;31mERROR:[0m [youtube] hhgODkjRmcg: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+62170,walk,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+62172,walk,www.youtube.com,failed,[0;31mERROR:[0m [youtube] U32Kznk2a70: This video is unavailable
+68177,walk,www.youtube.com,ok,
+68416,year,www.youtube.com,failed,[0;31mERROR:[0m [youtube] DnDbjT1fq8I: This video is unavailable
+68992,year,www.youtube.com,failed,[0;31mERROR:[0m [youtube] w9jgHLG_4ow: This video is unavailable
+64201,year,www.youtube.com,ok,
+64223,year,www.aslpro.com,failed,HTTP Error 404: Not Found
+66816,year,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+62173,walk,www.youtube.com,ok,
+64215,year,www.handspeak.com,failed,HTTP Error 404: Not Found
+64209,year,media.spreadthesign.com,ok,
+64216,year,www.handspeak.com,failed,HTTP Error 404: Not Found
+64213,year,media.asldeafined.com,ok,
+64217,year,www.handspeak.com,failed,HTTP Error 404: Not Found
+64219,year,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+64218,year,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+67012,year,youtu.be,failed,"[0;31mERROR:[0m [youtube] 21Naa_OgS4A: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+68190,year,www.youtube.com,ok,
+64275,yes,www.youtube.com,ok,
+70306,year,www.youtube.com,ok,
+62171,walk,www.youtube.com,ok,
+64290,yes,www.handspeak.com,failed,HTTP Error 404: Not Found
+64293,yes,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+68192,yes,www.youtube.com,ok,
+66820,yes,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+64221,year,www.youtube.com,ok,
+64280,yes,media.spreadthesign.com,ok,
+64297,yes,www.youtube.com,ok,
+64298,yes,www.youtube.com,failed,[0;31mERROR:[0m [youtube] wc2A8AZepy4: This video is unavailable
+64299,yes,www.aslpro.com,failed,HTTP Error 404: Not Found
+64300,yes,www.aslsearch.com,failed,downloaded file is too small
+64296,yes,www.youtube.com,ok,
+64288,yes,media.asldeafined.com,ok,
+64222,year,www.youtube.com,ok,
+64295,yes,www.youtube.com,ok,
+64289,yes,www.handspeak.com,failed,HTTP Error 404: Not Found
+64281,yes,s3-us-west-1.amazonaws.com,ok,
+06475,black,www.handspeak.com,failed,HTTP Error 404: Not Found
+06477,black,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+06478,black,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+64294,yes,www.youtube.com,ok,
+64283,yes,signstock.blob.core.windows.net,ok,
+65200,black,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+68230,black,www.youtube.com,failed,[0;31mERROR:[0m [youtube] 2YRASxmXLD0: This video is unavailable
+06471,black,media.spreadthesign.com,ok,
+06455,black,www.youtube.com,ok,
+67414,black,youtu.be,failed,"[0;31mERROR:[0m [youtube] kCT-we5dguI: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+06484,black,www.youtube.com,failed,[0;31mERROR:[0m [youtube] TLoZKdMeA8w: This video is unavailable
+06480,black,www.youtube.com,ok,
+06486,black,www.aslsearch.com,failed,downloaded file is too small
+06485,black,www.aslpro.com,failed,HTTP Error 404: Not Found
+06483,black,www.youtube.com,ok,
+06481,black,www.youtube.com,ok,
+13217,cool,www.aslsearch.com,failed,downloaded file is too small
+06482,black,www.youtube.com,ok,
+13198,cool,signstock.blob.core.windows.net,ok,
+13200,cool,signstock.blob.core.windows.net,ok,
+65402,cool,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+13199,cool,signstock.blob.core.windows.net,ok,
+13201,cool,media.asldeafined.com,ok,
+13205,cool,www.handspeak.com,failed,HTTP Error 404: Not Found
+13202,cool,media.asldeafined.com,ok,
+13206,cool,www.handspeak.com,failed,HTTP Error 404: Not Found
+13207,cool,www.handspeak.com,failed,HTTP Error 404: Not Found
+13203,cool,media.asldeafined.com,ok,
+13208,cool,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+13209,cool,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+13196,cool,signstock.blob.core.windows.net,ok,
+70244,black,www.youtube.com,ok,
+28074,hot,www.youtube.com,ok,
+13214,cool,www.youtube.com,ok,
+28113,hot,www.handspeak.com,failed,HTTP Error 404: Not Found
+28114,hot,www.handspeak.com,failed,HTTP Error 404: Not Found
+28115,hot,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+28111,hot,signstock.blob.core.windows.net,ok,
+28116,hot,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+28112,hot,media.asldeafined.com,ok,
+28107,hot,media.spreadthesign.com,ok,
+70271,cool,www.youtube.com,ok,
+70270,hot,www.youtube.com,ok,
+28119,hot,www.youtube.com,ok,
+28124,hot,www.aslpro.com,failed,HTTP Error 404: Not Found
+28120,hot,www.youtube.com,ok,
+28123,hot,www.youtube.com,failed,[0;31mERROR:[0m [youtube] Ob3drndU_yM: This video is unavailable
+28118,hot,www.youtube.com,ok,
+33268,like,signstock.blob.core.windows.net,ok,
+28121,hot,www.youtube.com,ok,
+33271,like,www.handspeak.com,failed,HTTP Error 404: Not Found
+33269,like,media.asldeafined.com,ok,
+33273,like,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+33274,like,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+33270,like,media.asldeafined.com,ok,
+28122,hot,www.youtube.com,ok,
+68093,like,www.youtube.com,ok,
+33281,like,www.youtube.com,ok,
+33278,like,www.youtube.com,ok,
+33277,like,www.youtube.com,ok,
+33284,like,www.aslpro.com,failed,HTTP Error 404: Not Found
+33283,like,www.youtube.com,failed,[0;31mERROR:[0m [youtube] xKY35YaWuLE: This video is unavailable
+33282,like,www.youtube.com,ok,
+34822,many,www.youtube.com,ok,
+33279,like,www.youtube.com,ok,
+33280,like,www.youtube.com,ok,
+34828,many,www.handspeak.com,failed,HTTP Error 404: Not Found
+34829,many,www.handspeak.com,failed,HTTP Error 404: Not Found
+34830,many,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+34831,many,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+34832,many,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+34827,many,media.asldeafined.com,ok,
+67873,many,youtu.be,failed,"[0;31mERROR:[0m [youtube] eTmzHLtBOnU: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+34833,many,www.youtube.com,failed,[0;31mERROR:[0m [youtube] 3B2kbN-ai6Y: This video is unavailable
+70308,many,www.youtube.com,ok,
+34838,many,www.aslpro.com,failed,HTTP Error 404: Not Found
+34837,many,www.youtube.com,failed,[0;31mERROR:[0m [youtube] MHJPgvs2kP8: This video is unavailable
+34839,many,www.aslsearch.com,failed,downloaded file is too small
+36945,mother,www.aslpro.com,failed,HTTP Error 404: Not Found
+36933,mother,media.asldeafined.com,ok,
+36934,mother,www.handspeak.com,failed,HTTP Error 404: Not Found
+36936,mother,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+36927,mother,www.youtube.com,ok,
+36937,mother,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+66147,mother,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+66146,mother,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+36929,mother,media.spreadthesign.com,ok,
+34836,many,www.youtube.com,ok,
+34835,many,www.youtube.com,ok,
+67908,mother,youtu.be,failed,"[0;31mERROR:[0m [youtube] MEhxsAx_n6A: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+70299,like,www.youtube.com,ok,
+36938,mother,www.youtube.com,ok,
+34834,many,www.youtube.com,ok,
+36939,mother,www.youtube.com,ok,
+36940,mother,www.youtube.com,ok,
+36942,mother,www.youtube.com,ok,
+40114,orange,www.youtube.com,ok,
+36944,mother,www.youtube.com,ok,
+36941,mother,www.youtube.com,ok,
+40120,orange,www.handspeak.com,failed,HTTP Error 404: Not Found
+40121,orange,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+40119,orange,media.asldeafined.com,ok,
+66246,orange,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+68122,orange,www.youtube.com,ok,
+67949,orange,youtu.be,failed,"[0;31mERROR:[0m [youtube] F4cpgfDA0ds: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+40124,orange,www.youtube.com,failed,[0;31mERROR:[0m [youtube] juHCHcRrGew: This video is unavailable
+70310,orange,www.youtube.com,ok,
+70249,orange,www.youtube.com,ok,
+40129,orange,www.aslsearch.com,failed,downloaded file is too small
+40128,orange,www.aslpro.com,failed,HTTP Error 404: Not Found
+40130,orange,www.aslsearch.com,failed,downloaded file is too small
+57646,thanksgiving,www.aslpro.com,failed,HTTP Error 404: Not Found
+69092,thanksgiving,www.youtube.com,failed,[0;31mERROR:[0m [youtube] ZxOqr6aCVLc: This video is unavailable
+40123,orange,www.youtube.com,ok,
+40126,orange,www.youtube.com,ok,
+57633,thanksgiving,media.asldeafined.com,ok,
+57632,thanksgiving,signstock.blob.core.windows.net,ok,
+57634,thanksgiving,media.asldeafined.com,ok,
+57636,thanksgiving,www.handspeak.com,failed,HTTP Error 404: Not Found
+40122,orange,www.youtube.com,ok,
+57637,thanksgiving,www.handspeak.com,failed,HTTP Error 404: Not Found
+67292,thanksgiving,youtu.be,failed,"[0;31mERROR:[0m [youtube] 3PcHDlj9WEc: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+57635,thanksgiving,media.asldeafined.com,ok,
+57638,thanksgiving,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+57639,thanksgiving,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+57640,thanksgiving,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+57641,thanksgiving,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+57645,thanksgiving,www.youtube.com,ok,
+68330,what,www.youtube.com,failed,[0;31mERROR:[0m [youtube] AK26EQRsH7k: This video is unavailable
+62982,what,www.youtube.com,failed,[0;31mERROR:[0m [youtube] M1gXuGSWqVI: This video is unavailable
+62971,what,www.handspeak.com,failed,HTTP Error 404: Not Found
+62986,what,www.aslpro.com,failed,HTTP Error 404: Not Found
+62973,what,www.handspeak.com,failed,HTTP Error 404: Not Found
+62987,what,www.aslsearch.com,failed,downloaded file is too small
+67057,what,youtu.be,failed,"[0;31mERROR:[0m [youtube] sbODkAcZ5Mw: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+62964,what,media.spreadthesign.com,ok,
+62944,what,www.youtube.com,ok,
+62988,what,www.aslsearch.com,failed,downloaded file is too small
+62975,what,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+62979,what,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+67058,what,youtu.be,failed,"[0;31mERROR:[0m [youtube] XO9Lq5Gyuaw: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+62965,what,s3-us-west-1.amazonaws.com,ok,
+57642,thanksgiving,www.youtube.com,ok,
+62984,what,www.youtube.com,ok,
+57643,thanksgiving,www.youtube.com,ok,
+62966,what,signstock.blob.core.windows.net,ok,
+63670,woman,www.handspeak.com,failed,HTTP Error 404: Not Found
+63671,woman,www.handspeak.com,failed,HTTP Error 404: Not Found
+63672,woman,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+63673,woman,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+66798,woman,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+68764,woman,www.youtube.com,failed,[0;31mERROR:[0m [youtube] OgcjUatW9LA: This video is unavailable
+66799,woman,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+63669,woman,media.asldeafined.com,ok,
+63664,woman,media.spreadthesign.com,ok,
+63662,woman,www.youtube.com,ok,
+63678,woman,www.aslpro.com,failed,HTTP Error 404: Not Found
+67078,woman,youtu.be,failed,"[0;31mERROR:[0m [youtube] 2GhoeP8Gcyk: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+68187,woman,www.youtube.com,ok,
+05643,bed,www.aslpro.com,failed,HTTP Error 404: Not Found
+05634,bed,media.asldeafined.com,ok,
+05635,bed,www.handspeak.com,failed,HTTP Error 404: Not Found
+05636,bed,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+65162,bed,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+05628,bed,www.youtube.com,ok,
+05633,bed,signstock.blob.core.windows.net,ok,
+65163,bed,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+05637,bed,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+65161,bed,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+05638,bed,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+63676,woman,www.youtube.com,ok,
+67400,bed,youtu.be,failed,"[0;31mERROR:[0m [youtube] Rl52rS9gxSU: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+63675,woman,www.youtube.com,ok,
+07403,bowling,www.aslpro.com,failed,HTTP Error 404: Not Found
+63677,woman,www.youtube.com,ok,
+05642,bed,www.youtube.com,failed,[0;31mERROR:[0m [youtube] zsInxFbekV8: This video is unavailable
+07395,bowling,www.handspeak.com,failed,HTTP Error 404: Not Found
+07396,bowling,www.handspeak.com,failed,HTTP Error 404: Not Found
+07397,bowling,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+65242,bowling,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+65241,bowling,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+07388,bowling,media.spreadthesign.com,ok,
+07394,bowling,media.asldeafined.com,ok,
+07383,bowling,www.youtube.com,ok,
+07398,bowling,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+07399,bowling,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+07400,bowling,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+67431,bowling,youtu.be,failed,"[0;31mERROR:[0m [youtube] GZ_G19YmWO8: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+05639,bed,www.youtube.com,ok,
+68632,dog,www.youtube.com,failed,[0;31mERROR:[0m [youtube] kMcaG9BjXXg: This video is unavailable
+05641,bed,www.youtube.com,ok,
+17088,dog,www.handspeak.com,failed,HTTP Error 404: Not Found
+17076,dog,www.youtube.com,ok,
+17090,dog,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+17091,dog,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+17087,dog,media.asldeafined.com,ok,
+65506,dog,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+65507,dog,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+17083,dog,media.spreadthesign.com,ok,
+17092,dog,www.youtube.com,failed,[0;31mERROR:[0m [youtube] catBjk1p2bk: This video is unavailable
+07401,bowling,www.youtube.com,ok,
+17096,dog,www.aslpro.com,failed,HTTP Error 404: Not Found
+67578,dog,youtu.be,failed,"[0;31mERROR:[0m [youtube] -9AsKTaXwH8: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+07402,bowling,www.youtube.com,ok,
+20984,family,www.handspeak.com,failed,HTTP Error 404: Not Found
+68035,dog,www.youtube.com,ok,
+20985,family,www.handspeak.com,failed,HTTP Error 404: Not Found
+20986,family,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+20987,family,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+65677,family,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+69016,family,www.youtube.com,failed,[0;31mERROR:[0m [youtube] x3GJ5mFOpNA: This video is unavailable
+20978,family,elementalaslconcepts.weebly.com,ok,
+67642,family,youtu.be,failed,"[0;31mERROR:[0m [youtube] Yuif86dOrEY: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+20976,family,www.youtube.com,ok,
+20991,family,www.aslpro.com,failed,HTTP Error 404: Not Found
+20992,family,www.aslsearch.com,failed,downloaded file is too small
+20979,family,media.spreadthesign.com,ok,
+22109,fish,www.youtube.com,ok,
+22129,fish,www.aslpro.com,failed,HTTP Error 404: Not Found
+22117,fish,media.asldeafined.com,ok,
+20988,family,www.youtube.com,ok,
+17093,dog,www.youtube.com,ok,
+22118,fish,www.handspeak.com,failed,HTTP Error 404: Not Found
+22119,fish,www.handspeak.com,failed,HTTP Error 404: Not Found
+20989,family,www.youtube.com,ok,
+22120,fish,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+22121,fish,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+65731,fish,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+22113,fish,elementalaslconcepts.weebly.com,ok,
+67667,fish,youtu.be,failed,"[0;31mERROR:[0m [youtube] 61B8V3YHlqg: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+22124,fish,www.youtube.com,failed,[0;31mERROR:[0m [youtube] 22cYLTT67sc: This video is unavailable
+17095,dog,www.youtube.com,ok,
+20990,family,www.youtube.com,ok,
+22125,fish,www.youtube.com,ok,
+25318,graduate,www.youtube.com,ok,
+25337,graduate,www.aslpro.com,failed,HTTP Error 404: Not Found
+25338,graduate,www.aslpro.com,failed,HTTP Error 404: Not Found
+68528,graduate,www.youtube.com,failed,[0;31mERROR:[0m [youtube] HNp5UcfuRSI: This video is unavailable
+25327,graduate,www.handspeak.com,failed,HTTP Error 404: Not Found
+25328,graduate,www.handspeak.com,failed,HTTP Error 404: Not Found
+70176,graduate,www.youtube.com,ok,
+65843,graduate,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+22127,fish,www.youtube.com,ok,
+25326,graduate,media.asldeafined.com,ok,
+25329,graduate,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+25330,graduate,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+22126,fish,www.youtube.com,ok,
+25321,graduate,media.spreadthesign.com,ok,
+22128,fish,www.youtube.com,ok,
+67722,graduate,youtu.be,failed,"[0;31mERROR:[0m [youtube] aciHfU1IrCc: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+68904,language,www.youtube.com,failed,[0;31mERROR:[0m [youtube] TaeaJ9r1A5U: This video is unavailable
+32146,language,www.youtube.com,ok,
+32161,language,www.handspeak.com,failed,HTTP Error 404: Not Found
+66008,language,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+32162,language,www.handspeak.com,failed,HTTP Error 404: Not Found
+66007,language,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+68084,language,www.youtube.com,ok,
+32154,language,media.spreadthesign.com,ok,
+67827,language,youtu.be,failed,"[0;31mERROR:[0m [youtube] ZS5lDC1yMSo: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+32166,language,www.aslpro.com,failed,HTTP Error 404: Not Found
+32167,language,www.aslsearch.com,failed,downloaded file is too small
+32165,language,www.youtube.com,failed,[0;31mERROR:[0m [youtube] y3ZYWbCLnGU: This video is unavailable
+68085,language,www.youtube.com,ok,
+25333,graduate,www.youtube.com,ok,
+32336,later,www.aslpro.com,failed,HTTP Error 404: Not Found
+25332,graduate,www.youtube.com,ok,
+32319,later,www.youtube.com,ok,
+32155,language,signstock.blob.core.windows.net,ok,
+66015,later,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+32323,later,signstock.blob.core.windows.net,ok,
+32327,later,www.handspeak.com,failed,HTTP Error 404: Not Found
+32324,later,signstock.blob.core.windows.net,ok,
+32335,later,www.youtube.com,ok,
+32328,later,www.handspeak.com,failed,HTTP Error 404: Not Found
+66014,later,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+32329,later,www.handspeak.com,failed,HTTP Error 404: Not Found
+32325,later,signstock.blob.core.windows.net,ok,
+32333,later,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+32326,later,media.asldeafined.com,ok,
+32164,language,www.youtube.com,ok,
+67829,later,youtu.be,failed,"[0;31mERROR:[0m [youtube] s3wDKw4Y4w0: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+34739,man,www.handspeak.com,failed,HTTP Error 404: Not Found
+34741,man,www.handspeak.com,failed,HTTP Error 404: Not Found
+68794,man,www.youtube.com,failed,[0;31mERROR:[0m [youtube] pi_BA9L-UNk: This video is unavailable
+66098,man,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+66099,man,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+66097,man,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+34738,man,media.asldeafined.com,ok,
+34737,man,signstock.blob.core.windows.net,ok,
+34732,man,media.spreadthesign.com,ok,
+34685,man,www.youtube.com,ok,
+34742,man,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+34745,man,www.aslpro.com,failed,HTTP Error 404: Not Found
+67872,man,youtu.be,failed,"[0;31mERROR:[0m [youtube] T2R4utmVagc: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+51077,shirt,www.aslpro.com,failed,HTTP Error 404: Not Found
+68928,shirt,www.youtube.com,failed,[0;31mERROR:[0m [youtube] u7GIbrpxyFU: This video is unavailable
+51061,shirt,media.asldeafined.com,ok,
+51063,shirt,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+51064,shirt,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+51054,shirt,www.youtube.com,ok,
+32334,later,www.youtube.com,ok,
+51066,shirt,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+51067,shirt,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+51068,shirt,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+51060,shirt,signstock.blob.core.windows.net,ok,
+67188,shirt,youtu.be,failed,"[0;31mERROR:[0m [youtube] lSqfurbjfDc: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+51070,shirt,www.youtube.com,failed,[0;31mERROR:[0m [youtube] 8dyicrBmgKE: This video is unavailable
+34743,man,www.youtube.com,ok,
+34744,man,www.youtube.com,ok,
+51069,shirt,www.youtube.com,ok,
+68428,study,www.youtube.com,failed,[0;31mERROR:[0m [youtube] edaot0Pm6NI: This video is unavailable
+51071,shirt,www.youtube.com,ok,
+55367,study,www.handspeak.com,failed,HTTP Error 404: Not Found
+51072,shirt,www.youtube.com,ok,
+68624,study,www.youtube.com,failed,[0;31mERROR:[0m [youtube] kePJ_Y5KPmM: This video is unavailable
+66575,study,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+55356,study,www.youtube.com,ok,
+55361,study,elementalaslconcepts.weebly.com,ok,
+55374,study,www.aslpro.com,failed,HTTP Error 404: Not Found
+55375,study,www.aslsearch.com,failed,downloaded file is too small
+55362,study,media.spreadthesign.com,ok,
+68162,study,www.youtube.com,ok,
+55370,study,www.youtube.com,ok,
+56835,tall,www.youtube.com,ok,
+56851,tall,www.aslpro.com,failed,HTTP Error 404: Not Found
+55363,study,s3-us-west-1.amazonaws.com,ok,
+55371,study,www.youtube.com,ok,
+56845,tall,www.handspeak.com,failed,HTTP Error 404: Not Found
+55373,study,www.youtube.com,ok,
+66591,tall,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+56843,tall,media.asldeafined.com,ok,
+66592,tall,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+56846,tall,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+56837,tall,media.spreadthesign.com,ok,
+56844,tall,media.asldeafined.com,ok,
+55372,study,www.youtube.com,ok,
+56848,tall,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+67278,tall,youtu.be,failed,"[0;31mERROR:[0m [youtube] qk-or6jz0Hk: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+67279,tall,youtu.be,failed,"[0;31mERROR:[0m [youtube] sT8fYiXBtZE: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+56842,tall,signstock.blob.core.windows.net,ok,
+68622,white,www.youtube.com,failed,[0;31mERROR:[0m [youtube] kddq0oAgBS0: This video is unavailable
+63206,white,www.handspeak.com,failed,HTTP Error 404: Not Found
+63191,white,www.youtube.com,ok,
+63200,white,media.spreadthesign.com,ok,
+68182,white,www.youtube.com,ok,
+63209,white,www.youtube.com,failed,[0;31mERROR:[0m [youtube] 0FYsztUQnUM: This video is unavailable
+56849,tall,www.youtube.com,ok,
+63213,white,www.aslpro.com,failed,HTTP Error 404: Not Found
+63214,white,www.aslsearch.com,failed,downloaded file is too small
+56850,tall,www.youtube.com,ok,
+70245,white,www.youtube.com,ok,
+63201,white,s3-us-west-1.amazonaws.com,ok,
+63210,white,www.youtube.com,ok,
+63202,white,s3-us-west-1.amazonaws.com,ok,
+63203,white,signstock.blob.core.windows.net,ok,
+00618,accident,www.youtube.com,ok,
+00630,accident,www.handspeak.com,failed,HTTP Error 404: Not Found
+00629,accident,media.asldeafined.com,ok,
+00631,accident,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+65009,accident,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+00632,accident,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+00633,accident,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+00628,accident,signstock.blob.core.windows.net,ok,
+63212,white,www.youtube.com,ok,
+00623,accident,media.spreadthesign.com,ok,
+00636,accident,www.aslpro.com,failed,HTTP Error 404: Not Found
+00634,accident,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+00638,accident,www.aslpro.com,failed,HTTP Error 404: Not Found
+67342,accident,youtu.be,failed,"[0;31mERROR:[0m [youtube] l5KxrD1W7oQ: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+63211,white,www.youtube.com,ok,
+03004,apple,www.handspeak.com,failed,HTTP Error 404: Not Found
+68576,apple,www.youtube.com,failed,[0;31mERROR:[0m [youtube] iVgjg202V6M: This video is unavailable
+03007,apple,www.aslpro.com,failed,HTTP Error 404: Not Found
+65084,apple,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+02999,apple,media.spreadthesign.com,ok,
+02997,apple,www.youtube.com,ok,
+03000,apple,media.spreadthesign.com,ok,
+67367,apple,youtu.be,failed,"[0;31mERROR:[0m [youtube] jVqjCsYCoMM: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+68003,apple,www.youtube.com,ok,
+70309,apple,www.youtube.com,ok,
+03003,apple,media.asldeafined.com,ok,
+03002,apple,s3-us-west-1.amazonaws.com,ok,
+03006,apple,www.youtube.com,ok,
+00635,accident,www.youtube.com,ok,
+06336,bird,www.handspeak.com,failed,HTTP Error 404: Not Found
+65187,bird,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+03001,apple,s3-us-west-1.amazonaws.com,ok,
+06339,bird,www.youtube.com,failed,[0;31mERROR:[0m [youtube] BC2ahgTLYbk: This video is unavailable
+06326,bird,www.youtube.com,ok,
+06330,bird,elementalaslconcepts.weebly.com,ok,
+06342,bird,www.aslpro.com,failed,HTTP Error 404: Not Found
+67411,bird,youtu.be,failed,"[0;31mERROR:[0m [youtube] pq-48yqB8kM: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+06343,bird,www.aslsearch.com,failed,downloaded file is too small
+06331,bird,media.spreadthesign.com,ok,
+70107,bird,www.youtube.com,ok,
+06332,bird,s3-us-west-1.amazonaws.com,ok,
+06341,bird,www.youtube.com,ok,
+09969,change,www.aslpro.com,failed,HTTP Error 404: Not Found
+09945,change,www.youtube.com,ok,
+06338,bird,www.youtube.com,ok,
+65332,change,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+06340,bird,www.youtube.com,ok,
+09957,change,media.asldeafined.com,ok,
+09955,change,signstock.blob.core.windows.net,ok,
+09949,change,elementalaslconcepts.weebly.com,ok,
+09956,change,signstock.blob.core.windows.net,ok,
+09961,change,www.handspeak.com,failed,HTTP Error 404: Not Found
+09954,change,signstock.blob.core.windows.net,ok,
+09962,change,www.handspeak.com,failed,HTTP Error 404: Not Found
+09963,change,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+09960,change,media.asldeafined.com,ok,
+70379,change,www.youtube.com,ok,
+13330,corn,www.handspeak.com,failed,HTTP Error 404: Not Found
+13331,corn,www.handspeak.com,failed,HTTP Error 404: Not Found
+65408,corn,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+65409,corn,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+13329,corn,media.asldeafined.com,ok,
+13323,corn,media.spreadthesign.com,ok,
+13333,corn,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+13334,corn,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+13335,corn,www.aslpro.com,failed,HTTP Error 404: Not Found
+13328,corn,signstock.blob.core.windows.net,ok,
+13336,corn,www.aslpro.com,failed,HTTP Error 404: Not Found
+67531,corn,youtu.be,failed,"[0;31mERROR:[0m [youtube] 0C7Gfubq690: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+13309,corn,www.youtube.com,ok,
+67530,corn,youtu.be,failed,"[0;31mERROR:[0m [youtube] lPM0S5NBl_0: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+14677,dark,www.handspeak.com,failed,HTTP Error 404: Not Found
+14678,dark,www.handspeak.com,failed,HTTP Error 404: Not Found
+65439,dark,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+14679,dark,www.handspeak.com,failed,HTTP Error 404: Not Found
+14680,dark,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+65440,dark,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+09968,change,www.youtube.com,ok,
+14671,dark,media.spreadthesign.com,ok,
+14681,dark,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+14684,dark,www.aslpro.com,failed,HTTP Error 404: Not Found
+14685,dark,www.aslsearch.com,failed,downloaded file is too small
+14683,dark,www.youtube.com,failed,[0;31mERROR:[0m [youtube] eWiJm1rz0Fk: This video is unavailable
+14669,dark,www.youtube.com,ok,
+68842,doctor,www.youtube.com,failed,[0;31mERROR:[0m [youtube] QPiZO8Aswgo: This video is unavailable
+17018,doctor,www.handspeak.com,failed,HTTP Error 404: Not Found
+65503,doctor,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+65504,doctor,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+17007,doctor,www.youtube.com,ok,
+17013,doctor,media.spreadthesign.com,ok,
+14672,dark,signstock.blob.core.windows.net,ok,
+17024,doctor,www.aslpro.com,failed,HTTP Error 404: Not Found
+17025,doctor,www.aslpro.com,failed,HTTP Error 404: Not Found
+17026,doctor,www.aslsearch.com,failed,downloaded file is too small
+67579,doctor,youtu.be,failed,"[0;31mERROR:[0m [youtube] sSpld6bXlM0: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+70049,doctor,www.youtube.com,ok,
+17014,doctor,s3-us-west-1.amazonaws.com,ok,
+24656,give,www.youtube.com,failed,[0;31mERROR:[0m [youtube] qMgcmGOiNmw: This video is unavailable
+17022,doctor,www.youtube.com,ok,
+24659,give,www.aslpro.com,failed,HTTP Error 404: Not Found
+24641,give,media.asldeafined.com,ok,
+24642,give,www.handspeak.com,failed,HTTP Error 404: Not Found
+24643,give,www.handspeak.com,failed,HTTP Error 404: Not Found
+24645,give,www.handspeak.com,failed,HTTP Error 404: Not Found
+24655,give,www.youtube.com,ok,
+24636,give,media.spreadthesign.com,ok,
+24648,give,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+14682,dark,www.youtube.com,ok,
+24651,give,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+24649,give,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+17023,doctor,www.youtube.com,ok,
+24657,give,www.youtube.com,ok,
+32251,last,www.handspeak.com,failed,HTTP Error 404: Not Found
+69068,last,www.youtube.com,failed,[0;31mERROR:[0m [youtube] Yp5z7Px_aV8: This video is unavailable
+32252,last,www.handspeak.com,failed,HTTP Error 404: Not Found
+32253,last,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+24658,give,www.youtube.com,ok,
+32254,last,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+32255,last,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+32257,last,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+32259,last,www.aslpro.com,failed,HTTP Error 404: Not Found
+32246,last,media.spreadthesign.com,ok,
+32260,last,www.aslsearch.com,failed,downloaded file is too small
+32261,last,www.aslsearch.com,failed,downloaded file is too small
+68086,last,www.youtube.com,ok,
+42976,pizza,www.aslpro.com,failed,HTTP Error 404: Not Found
+67826,last,youtu.be,failed,"[0;31mERROR:[0m [youtube] HV_8ELVFXzU: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+66297,pizza,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+42962,pizza,media.asldeafined.com,ok,
+24652,give,www.youtube.com,ok,
+42963,pizza,www.handspeak.com,failed,HTTP Error 404: Not Found
+42961,pizza,signstock.blob.core.windows.net,ok,
+42956,pizza,media.spreadthesign.com,ok,
+42953,pizza,www.youtube.com,ok,
+42966,pizza,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+42967,pizza,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+42964,pizza,www.handspeak.com,failed,HTTP Error 404: Not Found
+32258,last,www.youtube.com,ok,
+42969,pizza,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+42974,pizza,www.youtube.com,ok,
+43172,play,www.handspeak.com,failed,HTTP Error 404: Not Found
+68288,play,www.youtube.com,failed,[0;31mERROR:[0m [youtube] 75FwzqQqyM0: This video is unavailable
+43174,play,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+67081,play,youtu.be,failed,"[0;31mERROR:[0m [youtube] vz9KBYTBL4o: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+43176,play,www.youtube.com,failed,[0;31mERROR:[0m [youtube] Ui8rn2gM1ZE: This video is unavailable
+43177,play,www.aslpro.com,failed,HTTP Error 404: Not Found
+43178,play,www.aslpro.com,failed,HTTP Error 404: Not Found
+43179,play,www.aslsearch.com,failed,downloaded file is too small
+43180,play,www.aslsearch.com,failed,downloaded file is too small
+68133,play,www.youtube.com,ok,
+43175,play,www.youtube.com,ok,
+43167,play,s3-us-west-1.amazonaws.com,ok,
+43169,play,signstock.blob.core.windows.net,ok,
+42971,pizza,www.youtube.com,ok,
+50042,secretary,www.handspeak.com,failed,HTTP Error 404: Not Found
+50043,secretary,www.handspeak.com,failed,HTTP Error 404: Not Found
+43168,play,signstock.blob.core.windows.net,ok,
+42972,pizza,www.youtube.com,ok,
+50044,secretary,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+66441,secretary,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+50045,secretary,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+50046,secretary,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+67177,secretary,youtu.be,failed,"[0;31mERROR:[0m [youtube] rhpYRl3kHQU: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+50051,secretary,www.aslpro.com,failed,HTTP Error 404: Not Found
+50052,secretary,www.aslsearch.com,failed,downloaded file is too small
+50036,secretary,www.youtube.com,ok,
+50047,secretary,www.youtube.com,ok,
+50049,secretary,www.youtube.com,ok,
+51206,short,www.youtube.com,ok,
+50050,secretary,www.youtube.com,ok,
+50048,secretary,www.youtube.com,ok,
+51228,short,www.handspeak.com,failed,HTTP Error 404: Not Found
+66469,short,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+51229,short,www.handspeak.com,failed,HTTP Error 404: Not Found
+51220,short,media.spreadthesign.com,ok,
+51230,short,www.handspeak.com,failed,HTTP Error 404: Not Found
+51227,short,media.asldeafined.com,ok,
+51231,short,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+51232,short,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+51234,short,www.aslpro.com,failed,HTTP Error 404: Not Found
+51235,short,www.aslsearch.com,failed,downloaded file is too small
+51236,short,www.aslsearch.com,failed,downloaded file is too small
+51233,short,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+63805,work,www.aslpro.com,failed,HTTP Error 404: Not Found
+63793,work,media.asldeafined.com,ok,
+63794,work,www.handspeak.com,failed,HTTP Error 404: Not Found
+68924,work,www.youtube.com,failed,[0;31mERROR:[0m [youtube] TZ65f_6GglU: This video is unavailable
+66804,work,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+63804,work,www.youtube.com,failed,[0;31mERROR:[0m [youtube] pDRfD3bNsEo: This video is unavailable
+70355,short,www.youtube.com,ok,
+63795,work,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+63788,work,elementalaslconcepts.weebly.com,ok,
+63799,work,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+67003,work,youtu.be,failed,"[0;31mERROR:[0m [youtube] FwfWrRxzSxw: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+63802,work,www.youtube.com,failed,[0;31mERROR:[0m [youtube] dsZQRTrQjiE: This video is unavailable
+63769,work,www.youtube.com,ok,
+05236,basketball,www.handspeak.com,failed,HTTP Error 404: Not Found
+68612,basketball,www.youtube.com,failed,[0;31mERROR:[0m [youtube] JxtYMfvnp58: This video is unavailable
+05234,basketball,media.asldeafined.com,ok,
+05237,basketball,www.handspeak.com,failed,HTTP Error 404: Not Found
+65144,basketball,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+65145,basketball,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+05238,basketball,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+05229,basketball,media.spreadthesign.com,ok,
+05239,basketball,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+05227,basketball,www.youtube.com,ok,
+05243,basketball,www.aslsearch.com,failed,downloaded file is too small
+67392,basketball,youtu.be,failed,"[0;31mERROR:[0m [youtube] CsqxlMUHwyg: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+10162,cheat,www.aslpro.com,failed,HTTP Error 404: Not Found
+63801,work,www.youtube.com,ok,
+10164,cheat,www.aslpro.com,failed,HTTP Error 404: Not Found
+65342,cheat,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+67489,cheat,youtu.be,failed,"[0;31mERROR:[0m [youtube] lmWVuurMMOc: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+63803,work,www.youtube.com,ok,
+10146,cheat,www.youtube.com,ok,
+67490,cheat,youtu.be,failed,"[0;31mERROR:[0m [youtube] U2Nf3gOSPhg: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+10156,cheat,www.handspeak.com,failed,HTTP Error 404: Not Found
+05241,basketball,www.youtube.com,ok,
+10151,cheat,signstock.blob.core.windows.net,ok,
+10157,cheat,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+10161,cheat,www.youtube.com,ok,
+10159,cheat,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+10158,cheat,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+23772,full,www.handspeak.com,failed,HTTP Error 404: Not Found
+23773,full,www.handspeak.com,failed,HTTP Error 404: Not Found
+23766,full,media.spreadthesign.com,ok,
+23776,full,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+67697,full,youtu.be,failed,"[0;31mERROR:[0m [youtube] vMLkIHIe_fA: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+23780,full,www.aslpro.com,failed,HTTP Error 404: Not Found
+23777,full,www.youtube.com,ok,
+70029,full,www.youtube.com,ok,
+23778,full,www.youtube.com,ok,
+23779,full,www.youtube.com,ok,
+23768,full,signstock.blob.core.windows.net,ok,
+10160,cheat,www.youtube.com,ok,
+23769,full,signstock.blob.core.windows.net,ok,
+32951,letter,www.handspeak.com,failed,HTTP Error 404: Not Found
+68636,letter,www.youtube.com,failed,[0;31mERROR:[0m [youtube] Kw9nFq7HD4Y: This video is unavailable
+32954,letter,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+32945,letter,media.spreadthesign.com,ok,
+32955,letter,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+32957,letter,www.aslpro.com,failed,HTTP Error 404: Not Found
+23767,full,s3-us-west-1.amazonaws.com,ok,
+32959,letter,www.aslsearch.com,failed,downloaded file is too small
+32946,letter,media.spreadthesign.com,ok,
+67840,letter,youtu.be,failed,"[0;31mERROR:[0m [youtube] cIC4tYLHaME: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+68089,letter,www.youtube.com,ok,
+68336,son,www.youtube.com,failed,[0;31mERROR:[0m [youtube] Aq6l7fEWRVM: This video is unavailable
+32947,letter,signstock.blob.core.windows.net,ok,
+53272,son,www.handspeak.com,failed,HTTP Error 404: Not Found
+70325,letter,www.youtube.com,ok,
+53258,son,www.youtube.com,ok,
+53276,son,www.youtube.com,failed,[0;31mERROR:[0m The downloaded file is empty
+53278,son,www.aslpro.com,failed,HTTP Error 404: Not Found
+53279,son,www.aslsearch.com,failed,downloaded file is too small
+67227,son,youtu.be,failed,"[0;31mERROR:[0m [youtube] rbEp5hFQljM: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+32956,letter,www.youtube.com,ok,
+53268,son,s3-us-west-1.amazonaws.com,ok,
+53271,son,media.asldeafined.com,ok,
+57279,tell,www.handspeak.com,failed,HTTP Error 404: Not Found
+57280,tell,www.handspeak.com,failed,HTTP Error 404: Not Found
+57281,tell,www.handspeak.com,failed,HTTP Error 404: Not Found
+57276,tell,media.spreadthesign.com,ok,
+70335,son,www.youtube.com,ok,
+53270,son,signstock.blob.core.windows.net,ok,
+57286,tell,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+57287,tell,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+57273,tell,www.youtube.com,ok,
+57290,tell,www.aslpro.com,failed,HTTP Error 404: Not Found
+53269,son,signstock.blob.core.windows.net,ok,
+57291,tell,www.aslsearch.com,failed,downloaded file is too small
+67287,tell,youtu.be,failed,"[0;31mERROR:[0m [youtube] giIzGcYftow: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+53277,son,www.youtube.com,ok,
+58364,thursday,www.handspeak.com,failed,HTTP Error 404: Not Found
+57277,tell,signstock.blob.core.windows.net,ok,
+58359,thursday,www.youtube.com,ok,
+66638,thursday,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+66639,thursday,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+66640,thursday,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+67306,thursday,youtu.be,failed,"[0;31mERROR:[0m [youtube] 3HztBiJlikY: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+58369,thursday,www.aslpro.com,failed,HTTP Error 404: Not Found
+57289,tell,www.youtube.com,ok,
+58370,thursday,www.aslsearch.com,failed,downloaded file is too small
+70026,thursday,www.youtube.com,ok,
+58360,thursday,media.spreadthesign.com,ok,
+58367,thursday,www.youtube.com,ok,
+62104,wait,www.handspeak.com,failed,HTTP Error 404: Not Found
+62105,wait,www.handspeak.com,failed,HTTP Error 404: Not Found
+62103,wait,media.asldeafined.com,ok,
+62106,wait,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+57288,tell,www.youtube.com,ok,
+66740,wait,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+62107,wait,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+62097,wait,media.spreadthesign.com,ok,
+62077,wait,www.youtube.com,ok,
+58361,thursday,s3-us-west-1.amazonaws.com,ok,
+62112,wait,www.aslpro.com,failed,HTTP Error 404: Not Found
+67034,wait,youtu.be,failed,"[0;31mERROR:[0m [youtube] QlMV4KuPClU: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+62110,wait,www.youtube.com,failed,[0;31mERROR:[0m [youtube] mhJvv6lTQ90: This video is unavailable
+58368,thursday,www.youtube.com,ok,
+05092,bar,www.handspeak.com,failed,HTTP Error 404: Not Found
+68626,bar,www.youtube.com,failed,[0;31mERROR:[0m [youtube] kGPN_mu3qQM: This video is unavailable
+05093,bar,www.handspeak.com,failed,HTTP Error 404: Not Found
+05089,bar,media.asldeafined.com,ok,
+05095,bar,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+05097,bar,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+05090,bar,media.asldeafined.com,ok,
+05098,bar,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+05101,bar,www.aslpro.com,failed,HTTP Error 404: Not Found
+05102,bar,www.aslsearch.com,failed,downloaded file is too small
+62109,wait,www.youtube.com,ok,
+67389,bar,youtu.be,failed,"[0;31mERROR:[0m [youtube] EoFo7upFN8g: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+07939,brother,www.handspeak.com,failed,HTTP Error 404: Not Found
+07932,brother,media.spreadthesign.com,ok,
+68594,brother,www.youtube.com,failed,[0;31mERROR:[0m [youtube] jdl69Fp9eg8: This video is unavailable
+07942,brother,www.aslpro.com,failed,HTTP Error 404: Not Found
+07943,brother,www.aslsearch.com,failed,downloaded file is too small
+67445,brother,youtu.be,failed,"[0;31mERROR:[0m [youtube] 0j1ddj7K5X8: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+07929,brother,www.youtube.com,ok,
+07933,brother,s3-us-west-1.amazonaws.com,ok,
+62111,wait,www.youtube.com,ok,
+05099,bar,www.youtube.com,ok,
+10189,check,www.handspeak.com,failed,HTTP Error 404: Not Found
+10190,check,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+07935,brother,signstock.blob.core.windows.net,ok,
+10192,check,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+10188,check,media.asldeafined.com,ok,
+07934,brother,signstock.blob.core.windows.net,ok,
+10183,check,media.spreadthesign.com,ok,
+07936,brother,signstock.blob.core.windows.net,ok,
+10196,check,www.aslpro.com,failed,HTTP Error 404: Not Found
+10197,check,www.aslsearch.com,failed,downloaded file is too small
+10199,check,www.aslsearch.com,failed,downloaded file is too small
+67491,check,youtu.be,failed,"[0;31mERROR:[0m [youtube] x-woI4apbkY: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+14178,cry,www.handspeak.com,failed,HTTP Error 404: Not Found
+07941,brother,www.youtube.com,ok,
+14179,cry,www.handspeak.com,failed,HTTP Error 404: Not Found
+14182,cry,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+14183,cry,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+65427,cry,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+14174,cry,media.spreadthesign.com,ok,
+10193,check,www.youtube.com,ok,
+10194,check,www.youtube.com,ok,
+67545,cry,youtu.be,failed,"[0;31mERROR:[0m [youtube] TcODOeucG60: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+14187,cry,www.aslpro.com,failed,HTTP Error 404: Not Found
+14188,cry,www.aslsearch.com,failed,downloaded file is too small
+14172,cry,www.youtube.com,ok,
+14185,cry,www.youtube.com,failed,[0;31mERROR:[0m [youtube] 2d8EvTygLOc: This video is unavailable
+32397,laugh,www.aslpro.com,failed,HTTP Error 404: Not Found
+10195,check,www.youtube.com,ok,
+32393,laugh,www.youtube.com,failed,[0;31mERROR:[0m [youtube] JPDU2pWIyDE: This video is unavailable
+32373,laugh,www.youtube.com,ok,
+32386,laugh,media.asldeafined.com,ok,
+32377,laugh,media.spreadthesign.com,ok,
+32382,laugh,signstock.blob.core.windows.net,ok,
+32389,laugh,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+32388,laugh,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+32383,laugh,signstock.blob.core.windows.net,ok,
+67831,laugh,youtu.be,failed,"[0;31mERROR:[0m [youtube] nqWDDn7jtFA: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+48515,room,www.handspeak.com,failed,HTTP Error 404: Not Found
+48514,room,media.asldeafined.com,ok,
+66415,room,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+48516,room,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+66416,room,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+32395,laugh,www.youtube.com,ok,
+32392,laugh,www.youtube.com,failed,[0;31mERROR:[0m [youtube] jf6-pIRXAek: This video is unavailable
+48517,room,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+14186,cry,www.youtube.com,ok,
+48520,room,www.aslpro.com,failed,HTTP Error 404: Not Found
+48521,room,www.aslsearch.com,failed,downloaded file is too small
+67149,room,youtu.be,failed,"[0;31mERROR:[0m [youtube] hdDYNPC93DM: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+48519,room,www.youtube.com,failed,[0;31mERROR:[0m [youtube] R60q-PBwY58: This video is unavailable
+48507,room,www.youtube.com,ok,
+52866,snow,www.aslpro.com,failed,HTTP Error 404: Not Found
+52864,snow,www.youtube.com,failed,[0;31mERROR:[0m [youtube] ---cgPhwI8k: This video is unavailable
+48518,room,www.youtube.com,ok,
+67221,snow,youtu.be,failed,"[0;31mERROR:[0m [youtube] KkavX3HF0Es: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+52834,snow,www.youtube.com,ok,
+52867,snow,www.aslsearch.com,failed,downloaded file is too small
+70122,snow,www.youtube.com,ok,
+52861,snow,www.handspeak.com,failed,HTTP Error 404: Not Found
+52859,snow,signstock.blob.core.windows.net,ok,
+52860,snow,media.asldeafined.com,ok,
+52857,snow,s3-us-west-1.amazonaws.com,ok,
+56697,take,www.handspeak.com,failed,HTTP Error 404: Not Found
+56702,take,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+52865,snow,www.youtube.com,ok,
+56692,take,media.spreadthesign.com,ok,
+56703,take,www.aslpro.com,failed,HTTP Error 404: Not Found
+56704,take,www.aslsearch.com,failed,downloaded file is too small
+68228,take,www.youtube.com,failed,[0;31mERROR:[0m [youtube] 2XukQ6DOr_g: This video is unavailable
+56705,take,www.aslsearch.com,failed,downloaded file is too small
+56696,take,www.handspeak.com,failed,HTTP Error 404: Not Found
+52858,snow,signstock.blob.core.windows.net,ok,
+56652,take,www.youtube.com,ok,
+56695,take,www.handspeak.com,failed,HTTP Error 404: Not Found
+63286,why,www.handspeak.com,failed,HTTP Error 404: Not Found
+56694,take,media.asldeafined.com,ok,
+66781,why,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+63289,why,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+63291,why,www.aslpro.com,failed,HTTP Error 404: Not Found
+63292,why,www.aslsearch.com,failed,downloaded file is too small
+67067,why,youtu.be,failed,"[0;31mERROR:[0m [youtube] Bp4hwb11MXo: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+63280,why,media.spreadthesign.com,ok,
+63290,why,www.youtube.com,failed,[0;31mERROR:[0m [youtube] -iJt0VZWBcA: This video is unavailable
+63279,why,www.youtube.com,ok,
+63281,why,s3-us-west-1.amazonaws.com,ok,
+64062,write,www.handspeak.com,failed,HTTP Error 404: Not Found
+63282,why,signstock.blob.core.windows.net,ok,
+64064,write,www.handspeak.com,failed,HTTP Error 404: Not Found
+56693,take,s3-us-west-1.amazonaws.com,ok,
+64056,write,media.spreadthesign.com,ok,
+70213,why,www.youtube.com,ok,
+64049,write,www.youtube.com,ok,
+64068,write,www.aslsearch.com,failed,downloaded file is too small
+67008,write,youtu.be,failed,"[0;31mERROR:[0m [youtube] ggCEDV4EoGs: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+64057,write,s3-us-west-1.amazonaws.com,ok,
+64058,write,s3-us-west-1.amazonaws.com,ok,
+64059,write,signstock.blob.core.windows.net,ok,
+64310,yesterday,www.handspeak.com,failed,HTTP Error 404: Not Found
+64303,yesterday,www.youtube.com,ok,
+64067,write,www.youtube.com,ok,
+66822,yesterday,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+70261,write,www.youtube.com,ok,
+64314,yesterday,www.aslpro.com,failed,HTTP Error 404: Not Found
+64315,yesterday,www.aslsearch.com,failed,downloaded file is too small
+64304,yesterday,media.spreadthesign.com,ok,
+67014,yesterday,youtu.be,failed,"[0;31mERROR:[0m [youtube] Y4I4o8336WM: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+64305,yesterday,s3-us-west-1.amazonaws.com,ok,
+64306,yesterday,s3-us-west-1.amazonaws.com,ok,
+04716,bad,www.handspeak.com,failed,HTTP Error 404: Not Found
+04717,bad,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+65125,bad,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+64066,write,www.youtube.com,ok,
+04708,bad,media.spreadthesign.com,ok,
+04718,bad,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+67381,bad,youtu.be,failed,"[0;31mERROR:[0m [youtube] -kgTBeOw95A: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+04694,bad,www.youtube.com,ok,
+04722,bad,www.aslpro.com,failed,HTTP Error 404: Not Found
+04723,bad,www.aslsearch.com,failed,downloaded file is too small
+64313,yesterday,www.youtube.com,ok,
+70347,yesterday,www.youtube.com,ok,
+65204,blanket,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+06557,blanket,www.handspeak.com,failed,HTTP Error 404: Not Found
+65205,blanket,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+64312,yesterday,www.youtube.com,ok,
+06561,blanket,www.aslpro.com,failed,HTTP Error 404: Not Found
+06562,blanket,www.aslpro.com,failed,HTTP Error 404: Not Found
+06563,blanket,www.aslsearch.com,failed,downloaded file is too small
+67415,blanket,youtu.be,failed,"[0;31mERROR:[0m [youtube] zvl9WNR_Jco: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+04720,bad,www.youtube.com,ok,
+06550,blanket,www.youtube.com,ok,
+06551,blanket,s3-us-west-1.amazonaws.com,ok,
+08689,call,signstock.blob.core.windows.net,ok,
+06552,blanket,signstock.blob.core.windows.net,ok,
+08690,call,signstock.blob.core.windows.net,ok,
+04721,bad,www.youtube.com,ok,
+08695,call,www.handspeak.com,failed,HTTP Error 404: Not Found
+08692,call,media.asldeafined.com,ok,
+08691,call,media.asldeafined.com,ok,
+08697,call,www.handspeak.com,failed,HTTP Error 404: Not Found
+08698,call,www.handspeak.com,failed,HTTP Error 404: Not Found
+06560,blanket,www.youtube.com,ok,
+08694,call,media.asldeafined.com,ok,
+08701,call,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+08702,call,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+11630,cold,www.handspeak.com,failed,HTTP Error 404: Not Found
+11621,cold,media.spreadthesign.com,ok,
+67460,call,youtu.be,failed,"[0;31mERROR:[0m [youtube] oroJy8hOvpc: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+11633,cold,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+11634,cold,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+11635,cold,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+11628,cold,media.asldeafined.com,ok,
+11637,cold,www.aslpro.com,failed,HTTP Error 404: Not Found
+11627,cold,signstock.blob.core.windows.net,ok,
+67513,cold,youtu.be,failed,"[0;31mERROR:[0m [youtube] EQJ7BYa01Co: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+14754,daughter,www.handspeak.com,failed,HTTP Error 404: Not Found
+11625,cold,signstock.blob.core.windows.net,ok,
+11636,cold,www.youtube.com,failed,[0;31mERROR:[0m [youtube] trlv3hkAQsQ: This video is unavailable
+14759,daughter,www.aslpro.com,failed,HTTP Error 404: Not Found
+14749,daughter,media.spreadthesign.com,ok,
+68858,daughter,www.youtube.com,failed,[0;31mERROR:[0m [youtube] Rfnpk9fqpGI: This video is unavailable
+14748,daughter,www.youtube.com,ok,
+14753,daughter,media.asldeafined.com,ok,
+14750,daughter,s3-us-west-1.amazonaws.com,ok,
+20073,example,www.handspeak.com,failed,HTTP Error 404: Not Found
+65652,example,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+65653,example,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+65654,example,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+20074,example,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+70334,daughter,www.youtube.com,ok,
+20064,example,www.youtube.com,ok,
+20076,example,www.aslpro.com,failed,HTTP Error 404: Not Found
+14752,daughter,signstock.blob.core.windows.net,ok,
+20077,example,www.aslsearch.com,failed,downloaded file is too small
+21076,far,www.handspeak.com,failed,HTTP Error 404: Not Found
+20066,example,media.spreadthesign.com,ok,
+65682,far,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+21069,far,media.spreadthesign.com,ok,
+14751,daughter,signstock.blob.core.windows.net,ok,
+21080,far,www.aslpro.com,failed,HTTP Error 404: Not Found
+21081,far,www.aslsearch.com,failed,downloaded file is too small
+67643,far,youtu.be,failed,"[0;31mERROR:[0m [youtube] fpCyfaQ5bXY: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+21052,far,www.youtube.com,ok,
+21070,far,s3-us-west-1.amazonaws.com,ok,
+21079,far,www.youtube.com,ok,
+14758,daughter,www.youtube.com,ok,
+20075,example,www.youtube.com,ok,
+21071,far,signstock.blob.core.windows.net,ok,
+25075,good,www.aslpro.com,failed,HTTP Error 404: Not Found
+25076,good,www.aslsearch.com,failed,downloaded file is too small
+21072,far,signstock.blob.core.windows.net,ok,
+25037,good,www.youtube.com,ok,
+67723,good,youtu.be,failed,"[0;31mERROR:[0m [youtube] nTaaoVc75-k: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+25067,good,s3-us-west-1.amazonaws.com,ok,
+25071,good,www.handspeak.com,failed,HTTP Error 404: Not Found
+25068,good,signstock.blob.core.windows.net,ok,
+32675,leave,www.aslpro.com,failed,HTTP Error 404: Not Found
+25070,good,media.asldeafined.com,ok,
+25069,good,signstock.blob.core.windows.net,ok,
+32661,leave,media.asldeafined.com,ok,
+32663,leave,www.handspeak.com,failed,HTTP Error 404: Not Found
+32662,leave,media.asldeafined.com,ok,
+32659,leave,signstock.blob.core.windows.net,ok,
+70259,good,www.youtube.com,ok,
+32654,leave,media.spreadthesign.com,ok,
+32664,leave,www.handspeak.com,failed,HTTP Error 404: Not Found
+32667,leave,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+32669,leave,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+53298,soon,www.handspeak.com,failed,HTTP Error 404: Not Found
+53297,soon,www.handspeak.com,failed,HTTP Error 404: Not Found
+66534,soon,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+67836,leave,youtu.be,failed,"[0;31mERROR:[0m [youtube] 1ebUDpd-7DE: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+53292,soon,media.spreadthesign.com,ok,
+53304,soon,www.aslsearch.com,failed,downloaded file is too small
+53303,soon,www.aslpro.com,failed,HTTP Error 404: Not Found
+53305,soon,www.aslsearch.com,failed,downloaded file is too small
+25074,good,www.youtube.com,ok,
+53293,soon,signstock.blob.core.windows.net,ok,
+53290,soon,www.youtube.com,ok,
+59212,trade,media.asldeafined.com,ok,
+59213,trade,www.handspeak.com,failed,HTTP Error 404: Not Found
+53294,soon,signstock.blob.core.windows.net,ok,
+59214,trade,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+32673,leave,www.youtube.com,ok,
+59203,trade,www.youtube.com,ok,
+59215,trade,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+59219,trade,www.aslsearch.com,failed,downloaded file is too small
+59218,trade,www.aslpro.com,failed,HTTP Error 404: Not Found
+59216,trade,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+04800,balance,www.handspeak.com,failed,HTTP Error 404: Not Found
+59205,trade,media.spreadthesign.com,ok,
+59204,trade,elementalaslconcepts.weebly.com,ok,
+59211,trade,signstock.blob.core.windows.net,ok,
+04805,balance,www.aslpro.com,failed,HTTP Error 404: Not Found
+04806,balance,www.aslsearch.com,failed,downloaded file is too small
+04796,balance,media.spreadthesign.com,ok,
+53302,soon,www.youtube.com,ok,
+67384,balance,youtu.be,failed,"[0;31mERROR:[0m [youtube] c0xdS1ZmB2c: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+04790,balance,www.youtube.com,ok,
+05603,because,www.handspeak.com,failed,HTTP Error 404: Not Found
+65159,because,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+04799,balance,media.asldeafined.com,ok,
+04797,balance,signstock.blob.core.windows.net,ok,
+04804,balance,www.youtube.com,ok,
+05605,because,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+04798,balance,signstock.blob.core.windows.net,ok,
+05608,because,www.aslpro.com,failed,HTTP Error 404: Not Found
+05606,because,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+05609,because,www.aslsearch.com,failed,downloaded file is too small
+67399,because,youtu.be,failed,"[0;31mERROR:[0m [youtube] cdXPk2cbN3U: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+05596,because,media.spreadthesign.com,ok,
+65401,convince,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+05595,because,www.youtube.com,ok,
+13141,convince,www.handspeak.com,failed,HTTP Error 404: Not Found
+13143,convince,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+13139,convince,www.handspeak.com,failed,HTTP Error 404: Not Found
+13144,convince,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+13148,convince,www.aslsearch.com,failed,downloaded file is too small
+13147,convince,www.aslpro.com,failed,HTTP Error 404: Not Found
+21250,fat,www.aslpro.com,failed,HTTP Error 404: Not Found
+13134,convince,elementalaslconcepts.weebly.com,ok,
+21231,fat,media.spreadthesign.com,ok,
+21239,fat,www.handspeak.com,failed,HTTP Error 404: Not Found
+13133,convince,www.youtube.com,ok,
+21241,fat,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+21237,fat,media.asldeafined.com,ok,
+21242,fat,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+21243,fat,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+67646,fat,youtu.be,failed,"[0;31mERROR:[0m [youtube] 6YMP-1Ccx8g: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+05607,because,www.youtube.com,ok,
+25249,government,www.handspeak.com,failed,HTTP Error 404: Not Found
+25250,government,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+67721,government,youtu.be,failed,"[0;31mERROR:[0m [youtube] ZcFkE7qjmcc: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+25240,government,www.youtube.com,ok,
+25253,government,www.aslsearch.com,failed,downloaded file is too small
+21248,fat,www.youtube.com,ok,
+25242,government,media.spreadthesign.com,ok,
+13146,convince,www.youtube.com,ok,
+25241,government,elementalaslconcepts.weebly.com,ok,
+30158,interest,www.handspeak.com,failed,HTTP Error 404: Not Found
+30160,interest,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+25251,government,www.youtube.com,ok,
+30152,interest,elementalaslconcepts.weebly.com,ok,
+30162,interest,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+25252,government,www.youtube.com,ok,
+30165,interest,www.aslpro.com,failed,HTTP Error 404: Not Found
+30166,interest,www.aslsearch.com,failed,downloaded file is too small
+67794,interest,youtu.be,failed,"[0;31mERROR:[0m [youtube] tacRhsELGVA: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+21246,fat,www.youtube.com,ok,
+30168,interest,www.aslsearch.com,failed,downloaded file is too small
+40174,order,www.handspeak.com,failed,HTTP Error 404: Not Found
+40175,order,www.handspeak.com,failed,HTTP Error 404: Not Found
+40177,order,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+40178,order,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+66249,order,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+25243,government,s3-us-west-1.amazonaws.com,ok,
+40169,order,media.spreadthesign.com,ok,
+40179,order,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+30163,interest,www.youtube.com,ok,
+67950,order,youtu.be,failed,"[0;31mERROR:[0m [youtube] 5EnWNCgPK6k: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+49249,sandwich,www.handspeak.com,failed,HTTP Error 404: Not Found
+67951,order,youtu.be,failed,"[0;31mERROR:[0m [youtube] Ol0t4VFTLbk: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+49254,sandwich,www.aslpro.com,failed,HTTP Error 404: Not Found
+49255,sandwich,www.aslsearch.com,failed,downloaded file is too small
+70172,order,www.youtube.com,ok,
+30164,interest,www.youtube.com,ok,
+49245,sandwich,media.spreadthesign.com,ok,
+67162,sandwich,youtu.be,failed,"[0;31mERROR:[0m [youtube] 7lsya6lXi5Q: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+49248,sandwich,media.asldeafined.com,ok,
+49244,sandwich,www.youtube.com,ok,
+57786,theory,www.handspeak.com,failed,HTTP Error 404: Not Found
+57787,theory,www.handspeak.com,failed,HTTP Error 404: Not Found
+57791,theory,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+57793,theory,www.aslpro.com,failed,HTTP Error 404: Not Found
+49246,sandwich,s3-us-west-1.amazonaws.com,ok,
+57794,theory,www.aslsearch.com,failed,downloaded file is too small
+49247,sandwich,signstock.blob.core.windows.net,ok,
+57782,theory,elementalaslconcepts.weebly.com,ok,
+57783,theory,media.spreadthesign.com,ok,
+57781,theory,www.youtube.com,ok,
+65092,argue,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+03276,argue,www.handspeak.com,failed,HTTP Error 404: Not Found
+03277,argue,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+03278,argue,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+03281,argue,www.aslpro.com,failed,HTTP Error 404: Not Found
+03282,argue,www.aslsearch.com,failed,downloaded file is too small
+03267,argue,media.spreadthesign.com,ok,
+57784,theory,signstock.blob.core.windows.net,ok,
+03266,argue,www.youtube.com,ok,
+09925,champion,www.aslpro.com,failed,HTTP Error 404: Not Found
+09923,champion,www.handspeak.com,failed,HTTP Error 404: Not Found
+09926,champion,www.aslsearch.com,failed,downloaded file is too small
+09915,champion,media.spreadthesign.com,ok,
+09914,champion,www.youtube.com,ok,
+57792,theory,www.youtube.com,ok,
+09916,champion,signstock.blob.core.windows.net,ok,
+49253,sandwich,www.youtube.com,ok,
+15324,delay,www.handspeak.com,failed,HTTP Error 404: Not Found
+15330,delay,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+15331,delay,www.aslpro.com,failed,HTTP Error 404: Not Found
+15332,delay,www.aslsearch.com,failed,downloaded file is too small
+09918,champion,signstock.blob.core.windows.net,ok,
+09917,champion,signstock.blob.core.windows.net,ok,
+09919,champion,signstock.blob.core.windows.net,ok,
+15317,delay,www.youtube.com,ok,
+15368,delicious,www.handspeak.com,failed,HTTP Error 404: Not Found
+65457,delicious,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+15322,delay,signstock.blob.core.windows.net,ok,
+15370,delicious,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+15320,delay,signstock.blob.core.windows.net,ok,
+15323,delay,media.asldeafined.com,ok,
+15374,delicious,www.aslsearch.com,failed,downloaded file is too small
+15373,delicious,www.aslpro.com,failed,HTTP Error 404: Not Found
+15361,delicious,media.spreadthesign.com,ok,
+67559,delicious,youtu.be,failed,"[0;31mERROR:[0m [youtube] qam8P_wUuhg: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+03280,argue,www.youtube.com,ok,
+19413,environment,www.handspeak.com,failed,HTTP Error 404: Not Found
+65639,environment,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+15321,delay,signstock.blob.core.windows.net,ok,
+19417,environment,www.aslpro.com,failed,HTTP Error 404: Not Found
+19418,environment,www.aslsearch.com,failed,downloaded file is too small
+19406,environment,elementalaslconcepts.weebly.com,ok,
+19407,environment,media.spreadthesign.com,ok,
+19408,environment,media.spreadthesign.com,ok,
+15362,delicious,s3-us-west-1.amazonaws.com,ok,
+37091,move,www.handspeak.com,failed,HTTP Error 404: Not Found
+19402,environment,www.youtube.com,ok,
+37093,move,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+37094,move,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+68328,move,www.youtube.com,failed,[0;31mERROR:[0m [youtube] AJk44gGftoM: This video is unavailable
+37085,move,media.spreadthesign.com,ok,
+37097,move,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+37098,move,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+42250,perspective,www.handspeak.com,failed,HTTP Error 404: Not Found
+67913,move,youtu.be,failed,"[0;31mERROR:[0m [youtube] zIePAaKHToM: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+42252,perspective,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+42253,perspective,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+42255,perspective,www.aslpro.com,failed,HTTP Error 404: Not Found
+42256,perspective,www.aslsearch.com,failed,downloaded file is too small
+19409,environment,s3-us-west-1.amazonaws.com,ok,
+42243,perspective,elementalaslconcepts.weebly.com,ok,
+42245,perspective,media.spreadthesign.com,ok,
+51711,silly,www.aslpro.com,failed,HTTP Error 404: Not Found
+42242,perspective,www.youtube.com,ok,
+15372,delicious,www.youtube.com,ok,
+51713,silly,www.aslsearch.com,failed,downloaded file is too small
+51703,silly,media.spreadthesign.com,ok,
+67202,silly,youtu.be,failed,"[0;31mERROR:[0m [youtube] Bmc7vzcNGb8: Private video. If the owner of this video has granted you access, please sign in. Use --cookies-from-browser "
+51702,silly,www.youtube.com,ok,
+51706,silly,media.asldeafined.com,ok,
+51707,silly,www.handspeak.com,failed,HTTP Error 404: Not Found
+51705,silly,signstock.blob.core.windows.net,ok,
+51704,silly,s3-us-west-1.amazonaws.com,ok,
+56306,sweet,media.spreadthesign.com,ok,
+56317,sweet,www.aslsearch.com,failed,downloaded file is too small
+56316,sweet,www.aslpro.com,failed,HTTP Error 404: Not Found
+42254,perspective,www.youtube.com,ok,
+56310,sweet,www.handspeak.com,failed,HTTP Error 404: Not Found
+56311,sweet,www.handspeak.com,failed,HTTP Error 404: Not Found
+56309,sweet,media.asldeafined.com,ok,
+37100,move,www.youtube.com,ok,
+56308,sweet,signstock.blob.core.windows.net,ok,
+49696,score,www.handspeak.com,failed,HTTP Error 404: Not Found
+49700,score,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+66434,score,aslsignbank.haskins.yale.edu,failed,"<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'aslsignbank.haskins.yale.e"
+49706,score,www.aslsearch.com,failed,downloaded file is too small
+56307,sweet,s3-us-west-1.amazonaws.com,ok,
+49702,score,www.signingsavvy.com,failed,HTTP Error 404: Not Found
+49691,score,media.spreadthesign.com,ok,
+49692,score,signstock.blob.core.windows.net,ok,
+49689,score,www.youtube.com,ok,
+56315,sweet,www.youtube.com,ok,
