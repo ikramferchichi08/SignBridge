@@ -16,6 +16,9 @@ Usage (PowerShell, from the project root, venv active):
     python -m src.train_gru --canonical-hand --hand-local --bidirectional --delta \
         --run-name gru_all
 
+    # final model for the live demo: trained on ALL clips, saved as one checkpoint file
+    python -m src.train_gru --final --model transformer --hand-local --run-name transformer_final
+
     # other model families, same folds and metrics
     python -m src.train_gru --model transformer --hand-local --run-name transformer_handlocal
     python -m src.train_gru --model cnn_lstm --hand-local --run-name cnn_lstm_handlocal
@@ -133,6 +136,19 @@ def hand_local_features(pts: np.ndarray) -> np.ndarray:
     return out.astype(np.float32)
 
 
+def assemble_features(x: np.ndarray, mask: np.ndarray, delta: bool) -> np.ndarray:
+    """Model input: landmarks [+ frame-to-frame differences] + the 4 detection flags.
+
+    Works on [N, T, F] (training) and on [T, F] (one clip in the live demo), so training and
+    live inference build exactly the same features.
+    """
+    parts = [x]
+    if delta:
+        parts.append(np.diff(x, axis=-2, prepend=x[..., :1, :]))
+    parts.append(mask.astype(np.float32))
+    return np.concatenate(parts, axis=-1).astype(np.float32)
+
+
 # --------------------------------------------------------------------- data
 def load_data(path: Path, min_hand_rate: float, delta: bool,
               canonical_hand: bool = False, hand_local: bool = False) -> dict:
@@ -151,11 +167,7 @@ def load_data(path: Path, min_hand_rate: float, delta: bool,
         if hand_local:
             pts = hand_local_features(pts)
         x = pts.reshape(x.shape).astype(np.float32)
-    parts = [x]
-    if delta:
-        parts.append(np.diff(x, axis=1, prepend=x[:, :1]))
-    parts.append(mask.astype(np.float32))
-    feats = np.concatenate(parts, axis=2).astype(np.float32)
+    feats = assemble_features(x, mask, delta)
     classes = json.loads((path.parent / "classes.json").read_text(encoding="utf-8"))
     return {
         "X": feats[keep], "y": y[keep], "signer": signer[keep],
@@ -181,10 +193,15 @@ def signer_weights(signers: np.ndarray) -> np.ndarray:
     return (w / w.mean()).astype(np.float32)
 
 
-def standardize(train: np.ndarray, *others: np.ndarray):
+def fit_standardizer(train: np.ndarray):
     flat = train.reshape(-1, train.shape[-1])
     mu, sd = flat.mean(axis=0), flat.std(axis=0)
     sd = np.where(sd < 1e-6, 1.0, sd)
+    return mu.astype(np.float32), sd.astype(np.float32)
+
+
+def standardize(train: np.ndarray, *others: np.ndarray):
+    mu, sd = fit_standardizer(train)
     return [(a - mu) / sd for a in (train, *others)]
 
 
@@ -372,6 +389,58 @@ def save_confusion(y_true, y_pred, n_classes: int, path: Path) -> None:
 
 
 # --------------------------------------------------------------------- main
+def train_final(args, data: dict, device, params: dict) -> int:
+    """Train one model on ALL kept clips and save a self-contained checkpoint.
+
+    There is no test fold here: the expected performance is the cross-validation result.
+    The checkpoint holds everything the live demo needs (weights, standardization statistics,
+    sign names, feature settings).
+    """
+    if args.canonical_hand:
+        raise SystemExit("--final does not support --canonical-hand (not used in the live demo)")
+    X, y, signer, classes = data["X"], data["y"], data["signer"], data["classes"]
+    spec = json.loads((args.data.parent / "feature_spec.json").read_text(encoding="utf-8"))
+    mu, sd = fit_standardizer(X)
+    Xt = torch.tensor((X - mu) / sd, device=device)
+    yt = torch.tensor(y, dtype=torch.long, device=device)
+    weights = (np.ones(len(y), dtype=np.float32) if args.no_signer_weights
+               else signer_weights(signer))
+    wt = torch.tensor(weights, device=device)
+
+    configure_mlflow(params)
+    with mlflow.start_run(run_name=args.run_name):
+        mlflow.set_tags({"model": args.model, "stage": "final_all_clips"})
+        mlflow.log_params({k: v for k, v in vars(args).items()
+                           if k not in ("data", "models_dir", "reports_dir")})
+        t0 = time.perf_counter()
+        model = train_fold(Xt, yt, wt, len(classes), args, device, args.seed)
+        seconds = time.perf_counter() - t0
+        train_acc = float((predict(model, Xt, device).argmax(axis=1) == y).mean())
+        mlflow.log_metrics({"train_accuracy": train_acc, "train_seconds": seconds})
+
+    path = args.models_dir / args.run_name / "final.pt"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    torch.save({
+        "state_dict": {k: v.cpu() for k, v in model.state_dict().items()},
+        "model": args.model,
+        "hparams": {"hidden": args.hidden, "layers": args.layers, "heads": args.heads,
+                    "dropout": args.dropout, "bidirectional": args.bidirectional},
+        "in_dim": int(X.shape[-1]),
+        "n_classes": len(classes),
+        "classes": list(classes),
+        "mu": torch.tensor(mu),
+        "sd": torch.tensor(sd),
+        "seq_len": int(spec["seq_len"]),
+        "face_idx": [int(i) for i in spec["face_mesh_indices"]],
+        "delta": bool(args.delta),
+        "hand_local": bool(args.hand_local),
+    }, path)
+    print(f"final model trained on {len(y)} clips in {seconds:.0f}s -> {path}")
+    print(f"training accuracy {train_acc:.1%} (not an evaluation; expected performance is the "
+          "cross-validation result)")
+    return 0
+
+
 def main() -> int:
     params = load_params()
     ap = argparse.ArgumentParser(description=__doc__,
@@ -387,6 +456,8 @@ def main() -> int:
     ap.add_argument("--hidden", type=int, default=128)
     ap.add_argument("--layers", type=int, default=2)
     ap.add_argument("--dropout", type=float, default=0.3)
+    ap.add_argument("--final", action="store_true",
+                    help="train on ALL clips and save models/<run-name>/final.pt for the live demo")
     ap.add_argument("--model", choices=("gru", "transformer", "cnn_lstm"), default="gru")
     ap.add_argument("--heads", type=int, default=4, help="attention heads (transformer)")
     ap.add_argument("--bidirectional", action="store_true")
@@ -418,6 +489,9 @@ def main() -> int:
     if args.canonical_hand:
         print(f"mirrored {data['n_mirrored']} clips ({data['n_mirrored'] / len(y):.0%}) "
               "so the dominant hand is the right one")
+
+    if args.final:
+        return train_final(args, data, device, params)
 
     folds = make_folds(y, signer, args.folds, args.seed)
     if args.limit_folds:
