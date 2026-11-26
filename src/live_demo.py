@@ -8,7 +8,10 @@ Usage (PowerShell, from the project root, venv active):
     # 2) webcam (q = quit, c = clear the transcript)
     python -m src.live_demo --checkpoint models\\transformer_final\\final.pt
 
-    # 3) a video file, without a window (prints the transcript and speed statistics)
+    # 3) webcam with account sign-in and saved recognition history
+    python -m src.live_demo --checkpoint models\\transformer_final\\final.pt --record-history
+
+    # 4) a video file, without a window (prints the transcript and speed statistics)
     python -m src.live_demo --checkpoint models\\transformer_final\\final.pt ^
         --video path\\to\\clip.mp4 --no-display
 
@@ -30,7 +33,13 @@ Limits (be open about them)
 from __future__ import annotations
 
 import argparse
+import getpass
+import http.cookiejar
+import json
+import sys
 import time
+import urllib.error
+import urllib.request
 from collections import deque
 from pathlib import Path
 from types import SimpleNamespace
@@ -42,6 +51,42 @@ import torch
 from src.extract_landmarks import build_sequence, result_to_frame
 from src.smoothing import WordSmoother
 from src.train_gru import assemble_features, build_model, hand_local_features
+
+
+class HistoryReporter:
+    def __init__(self, api_url: str, email: str, password: str):
+        self.api_url = api_url.rstrip("/")
+        self.opener = urllib.request.build_opener(
+            urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar())
+        )
+        self._post("/api/auth/login", {"email": email, "password": password})
+
+    def _post(self, path: str, payload: dict) -> dict:
+        request = urllib.request.Request(
+            f"{self.api_url}{path}",
+            data=json.dumps(payload).encode("utf-8"),
+            headers={"Content-Type": "application/json"},
+            method="POST",
+        )
+        try:
+            with self.opener.open(request, timeout=10) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except urllib.error.HTTPError as error:
+            detail = error.read().decode("utf-8", errors="replace")
+            raise RuntimeError(
+                f"History API rejected the request ({error.code}): {detail}"
+            ) from error
+        except urllib.error.URLError as error:
+            raise RuntimeError(f"Could not reach the history API: {error.reason}") from error
+
+    def record_sign(self, label: str, confidence: float) -> None:
+        self._post(
+            "/api/history/signs",
+            {"label": label, "confidence": float(confidence)},
+        )
+
+    def logout(self) -> None:
+        self._post("/api/auth/logout", {})
 
 
 def load_checkpoint(path: Path):
@@ -136,6 +181,10 @@ def main() -> int:
     ap.add_argument("--complexity", type=int, choices=(0, 1, 2), default=1)
     ap.add_argument("--no-display", action="store_true")
     ap.add_argument("--save-transcript", type=Path)
+    ap.add_argument("--record-history", action="store_true",
+                    help="sign in and save accepted predictions to account history")
+    ap.add_argument("--api-url", default="http://127.0.0.1:8000",
+                    help="SignBridge API base URL used with --record-history")
     args = ap.parse_args()
 
     import mediapipe as mp  # imported here so that the unit tests do not need it
@@ -149,6 +198,15 @@ def main() -> int:
     cap = cv2.VideoCapture(args.video if args.video else args.camera)
     if not cap.isOpened():
         raise SystemExit("cannot open the video source")
+    history = None
+    if args.record_history:
+        email = input("Account email: ").strip()
+        password = getpass.getpass("Account password: ")
+        try:
+            history = HistoryReporter(args.api_url, email, password)
+        except RuntimeError as error:
+            cap.release()
+            raise SystemExit(str(error)) from error
     source_fps = cap.get(cv2.CAP_PROP_FPS) or 30.0
     holistic = mp.solutions.holistic
     drawing = mp.solutions.drawing_utils
@@ -187,6 +245,8 @@ def main() -> int:
                     label = classes[top] if top is not None else ""
                     if accepted is not None:
                         transcript.append(classes[accepted])
+                        if history is not None:
+                            history.record_sign(classes[accepted], confidence)
                         stamp = now if args.video else now - started
                         print(f"[{stamp:6.1f}s] {classes[accepted]}", flush=True)
 
@@ -214,12 +274,18 @@ def main() -> int:
                         transcript.clear()
     except KeyboardInterrupt:
         print("\nstopped with Ctrl+C")
-    cap.release()
-    if not args.no_display:
-        try:
-            cv2.destroyAllWindows()
-        except cv2.error:
-            pass
+    finally:
+        cap.release()
+        if not args.no_display:
+            try:
+                cv2.destroyAllWindows()
+            except cv2.error:
+                pass
+        if history is not None:
+            try:
+                history.logout()
+            except RuntimeError as error:
+                print(f"Could not log out from history API: {error}", file=sys.stderr)
 
     elapsed = time.perf_counter() - started
     print(f"\n{frame_idx} frames in {elapsed:.1f}s -> {frame_idx / elapsed:.1f} FPS "

@@ -1,0 +1,31 @@
+services:
+  signbridge:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      SIGNBRIDGE_DB_PATH: /app/state/signbridge.sqlite3
+      SIGNBRIDGE_ADMIN_EMAIL: ${SIGNBRIDGE_ADMIN_EMAIL:-}
+      SIGNBRIDGE_ADMIN_PASSWORD: ${SIGNBRIDGE_ADMIN_PASSWORD:-}
+      SIGNBRIDGE_COOKIE_SECURE: ${SIGNBRIDGE_COOKIE_SECURE:-false}
+    volumes:
+      - signbridge-state:/app/state
+      - ./data:/app/data:ro
+      - ./reports:/app/reports:ro
+      - ./models:/app/models:ro
+    restart: unless-stopped
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health', timeout=3).read()"
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+
+volumes:
+  signbridge-state:

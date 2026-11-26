@@ -36,6 +36,12 @@ nav { display: grid; gap: 6px; }
 .sidebar-status div { display: flex; align-items: center; gap: 8px; }
 .sidebar-status small { display: block; margin-top: 7px; color: #91aabb; }
 .status-dot { width: 8px; height: 8px; border-radius: 50%; background: #55c6a1; box-shadow: 0 0 0 4px rgba(85,198,161,.12); }
+.sidebar-account { margin-top: auto; padding: 16px 8px 4px; border-top: 1px solid rgba(255,255,255,.1); overflow-wrap: anywhere; }
+.sidebar-account strong, .sidebar-account span { display: block; }
+.sidebar-account strong { font-size: 11px; }
+.sidebar-account span { margin-top: 5px; color: #91aabb; font-size: 10px; }
+.sidebar-account + .sidebar-status { margin-top: 0; border-top: 0; padding-top: 12px; }
+.logout-nav { margin-top: 8px; }
 
 main { min-width: 0; padding: 36px 42px 56px; max-width: 1500px; width: 100%; margin: 0 auto; }
 .page-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 28px; }
@@ -156,13 +162,34 @@ tbody tr:hover { background: #fafcfc; }
 .primary-button:disabled { background: #ccd7da; cursor: not-allowed; }
 pre { margin: 0; max-width: 100%; overflow-x: auto; border-radius: 9px; background: #17324d; color: #dcebf0; padding: 16px; font-size: 12px; }
 
+.auth-page { min-height: 100vh; display: grid; place-items: center; background: radial-gradient(circle at 15% 10%, #e0f0ee 0, transparent 32%), #f4f7f6; }
+.auth-card { width: min(440px, 100%); border: 1px solid #dde6e5; border-radius: 18px; background: #fff; padding: 32px; box-shadow: 0 20px 60px rgba(23,50,77,.10); }
+.auth-brand { display: flex; align-items: center; gap: 11px; margin-bottom: 30px; }
+.auth-brand strong, .auth-brand span { display: block; }
+.auth-brand strong { font-size: 17px; }
+.auth-brand span { margin-top: 3px; color: #82939b; font-size: 11px; }
+.auth-card h1 { margin: 7px 0 6px; font-size: 30px; }
+.auth-card > p { margin: 0; color: #71838e; font-size: 13px; line-height: 1.5; }
+.auth-tabs { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; margin: 22px 0 18px; padding: 4px; border-radius: 10px; background: #f0f4f4; }
+.auth-tabs button { border: 0; border-radius: 7px; background: transparent; padding: 9px; color: #71838e; cursor: pointer; }
+.auth-tabs button.selected { background: #fff; color: #17324d; box-shadow: 0 2px 8px rgba(23,50,77,.08); }
+.auth-form { display: grid; gap: 14px; }
+.auth-form label { display: grid; gap: 7px; color: #526977; font-size: 12px; font-weight: 700; }
+.auth-form input { width: 100%; height: 42px; border: 1px solid #d9e3e6; border-radius: 8px; outline: 0; padding: 0 11px; color: #17324d; }
+.auth-form input:focus { border-color: #176b87; box-shadow: 0 0 0 3px rgba(23,107,135,.10); }
+.auth-form .primary-button { width: 100%; margin-top: 2px; }
+.auth-form small { color: #82939b; text-align: center; font-size: 11px; }
+.form-error { border-radius: 8px; background: #fff0ef; color: #a13d36; padding: 10px 12px; font-size: 12px; }
+.history-panel { margin-top: 4px; }
+.empty-history { margin: 0; padding: 16px 0; color: #71838e; font-size: 13px; }
+
 .loading { min-height: 60vh; display: grid; place-content: center; justify-items: center; gap: 12px; color: #71838e; }
 .spinner { width: 28px; height: 28px; border: 3px solid #dce7e8; border-top-color: #176b87; border-radius: 50%; animation: spin .8s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
 
 @media (max-width: 980px) {
   .shell { grid-template-columns: 82px minmax(0, 1fr); }
-  .brand div:last-child, .nav-button span, .sidebar-status { display: none; }
+  .brand div:last-child, .nav-button span, .sidebar-status, .sidebar-account { display: none; }
   .brand { margin-inline: 3px; justify-content: center; }
   .nav-button { justify-content: center; padding: 0; }
   main { padding: 28px 20px 44px; }
@@ -175,7 +202,7 @@ pre { margin: 0; max-width: 100%; overflow-x: auto; border-radius: 9px; backgrou
   .shell { display: block; }
   .sidebar { position: relative; height: auto; padding: 12px; }
   .brand { display: none; }
-  nav { grid-template-columns: repeat(4, 1fr); }
+  nav { grid-template-columns: repeat(5, 1fr); }
   .nav-button { height: 40px; }
   main { padding: 22px 12px 40px; }
   .metric-grid { grid-template-columns: 1fr 1fr; }
@@ -184,4 +211,5 @@ pre { margin: 0; max-width: 100%; overflow-x: auto; border-radius: 9px; backgrou
   .page-header h1 { font-size: 28px; }
   .live-preview { min-height: 260px; }
   .camera-frame { height: 220px; }
+  .auth-card { padding: 24px 20px; }
 }

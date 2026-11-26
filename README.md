@@ -236,6 +236,66 @@ Pages disponibles :
 - Expériences : comparaison interactive des modèles, Top-1, Top-5, Macro-F1
   et taille des modèles.
 - Démo live : état du checkpoint final et instructions d'inférence.
+- Comptes : inscription et connexion par e-mail, avec historique privé par
+  utilisateur ; le compte administrateur peut consulter l'historique de tous les
+  utilisateurs.
+
+## Docker
+
+L'image Docker sert le frontend compilé et l'API FastAPI sur le même port.
+Les données, rapports et modèles restent montés en lecture seule depuis le
+workspace ; la base SQLite utilise un volume Docker persistant. Avant le
+démarrage, récupérez les données DVC si elles ne sont pas déjà présentes :
+
+```powershell
+dvc pull
+```
+
+Le compte administrateur est facultatif. Pour le créer au premier lancement,
+définissez ses identifiants dans PowerShell puis démarrez Compose :
+
+```powershell
+$env:SIGNBRIDGE_ADMIN_EMAIL = "admin@example.com"
+$env:SIGNBRIDGE_ADMIN_PASSWORD = "choose-a-private-password-of-12-chars-or-more"
+docker compose up --build -d
+```
+
+Sans compte administrateur, laissez ces variables non définies et lancez
+directement `docker compose up --build -d`. Ouvrez ensuite
+<http://localhost:8000>. Consultez l'état avec `docker compose ps`, les logs
+avec `docker compose logs -f signbridge`, et arrêtez les conteneurs avec
+`docker compose down` (le volume de l'historique reste conservé).
+
+La démo webcam reste à lancer sur l'hôte Windows, car Docker Desktop ne reçoit
+pas automatiquement l'accès à la webcam. Elle peut envoyer les signes reconnus
+vers l'API Docker avec `python -m src.live_demo --record-history
+--api-url http://127.0.0.1:8000`.
+
+En exécution locale, les comptes et événements sont conservés dans
+`data/signbridge.sqlite3` ; sous Docker, ils persistent dans le volume
+`signbridge-state`.
+Les mots de passe sont stockés sous forme de dérivés PBKDF2, et les sessions
+utilisent un cookie `HttpOnly`. Pour créer un administrateur au premier
+démarrage, configurez ses identifiants avant de lancer l'API :
+
+```powershell
+$env:SIGNBRIDGE_ADMIN_EMAIL = "admin@example.com"
+$env:SIGNBRIDGE_ADMIN_PASSWORD = "change-this-to-a-private-password"
+uvicorn app.main:app --reload
+```
+
+Le mot de passe administrateur doit contenir au moins 12 caractères. Ces
+variables ne sont pas nécessaires pour les comptes normaux. En production,
+servez le site en HTTPS et définissez `SIGNBRIDGE_COOKIE_SECURE=true`.
+
+Pour enregistrer les signes reconnus et les événements de connexion dans
+l'historique du compte, lancez la démo live depuis le terminal avec
+`--record-history`. Elle demande les identifiants du compte sans afficher le
+mot de passe :
+
+```powershell
+python -m src.live_demo --checkpoint models\transformer_final\final.pt --record-history
+```
 
 Test avec une vidéo :
 

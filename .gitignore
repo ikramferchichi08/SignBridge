@@ -15,6 +15,9 @@ env/
 # Experiment tracking and local artifacts
 mlruns/
 mlartifacts/
+data/signbridge.sqlite3
+data/signbridge.sqlite3-shm
+data/signbridge.sqlite3-wal
 
 # DVC-managed data and model artifacts
 data/raw/*

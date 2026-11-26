@@ -6,7 +6,9 @@ import {
   FlaskConical,
   Hand,
   Home,
+  History as HistoryIcon,
   Info,
+  LogOut,
   Play,
   Search,
   ShieldCheck,
@@ -27,16 +29,61 @@ import {
 } from "recharts";
 import "./styles.css";
 
-const API = "http://localhost:8000";
+const API = "";
 
-async function getJson(path) {
-  const response = await fetch(`${API}${path}`);
-  if (!response.ok) throw new Error(`Erreur API: ${response.status}`);
-  return response.json();
+async function apiRequest(path, options = {}) {
+  const headers = { ...options.headers };
+  if (options.body !== undefined) headers["Content-Type"] = "application/json";
+  const response = await fetch(`${API}${path}`, {
+    ...options,
+    headers,
+    credentials: "include",
+    body: options.body === undefined ? undefined : JSON.stringify(options.body),
+  });
+  const payload = await response.json();
+  if (!response.ok) {
+    const message = typeof payload.detail === "string" ? payload.detail : `Erreur API: ${response.status}`;
+    const error = new Error(message);
+    error.status = response.status;
+    throw error;
+  }
+  return payload;
 }
+
+const getJson = (path) => apiRequest(path);
+const postJson = (path, body = {}) => apiRequest(path, { method: "POST", body });
 
 function App() {
   const [page, setPage] = useState("overview");
+  const [user, setUser] = useState(null);
+  const [authLoading, setAuthLoading] = useState(true);
+  const [authError, setAuthError] = useState("");
+
+  useEffect(() => {
+    getJson("/api/auth/me")
+      .then((data) => setUser(data.user))
+      .catch((error) => {
+        if (error.status !== 401) setAuthError(error.message);
+      })
+      .finally(() => setAuthLoading(false));
+  }, []);
+
+  async function signOut() {
+    try {
+      await postJson("/api/auth/logout");
+      setUser(null);
+      setPage("overview");
+      setAuthError("");
+    } catch (error) {
+      setAuthError(error.message);
+    }
+  }
+
+  if (authLoading) return <Loading />;
+  if (!user) {
+    return <AuthPage onAuthenticated={setUser} initialError={authError} />;
+  }
+
   return (
     <div className="shell">
       <aside className="sidebar">
@@ -53,8 +100,17 @@ function App() {
           <NavButton page="dataset" active={page} setPage={setPage} icon={Database} label="Dataset" />
           <NavButton page="experiments" active={page} setPage={setPage} icon={FlaskConical} label="Expériences" />
           <NavButton page="live" active={page} setPage={setPage} icon={Video} label="Démo live" />
+          <NavButton page="history" active={page} setPage={setPage} icon={HistoryIcon} label="Historique" />
+          <button className="nav-button logout-nav" onClick={signOut}>
+            <LogOut size={18} />
+            <span>Déconnexion</span>
+          </button>
         </nav>
 
+        <div className="sidebar-account">
+          <strong>{user.email}</strong>
+          <span>{user.role === "admin" ? "Administrateur" : "Compte utilisateur"}</span>
+        </div>
         <div className="sidebar-status">
           <div><span className="status-dot" /> Système opérationnel</div>
           <small>Version 1.0 · ML local</small>
@@ -66,8 +122,106 @@ function App() {
         {page === "dataset" && <Dataset />}
         {page === "experiments" && <Experiments />}
         {page === "live" && <LiveDemo />}
+        {page === "history" && <HistoryPage user={user} />}
       </main>
     </div>
+  );
+}
+
+function AuthPage({ onAuthenticated, initialError }) {
+  const [mode, setMode] = useState("login");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
+  const [error, setError] = useState(initialError);
+  const [busy, setBusy] = useState(false);
+
+  async function submit(event) {
+    event.preventDefault();
+    setError("");
+    if (mode === "register" && password !== confirmPassword) {
+      setError("Les mots de passe ne correspondent pas.");
+      return;
+    }
+    setBusy(true);
+    try {
+      const endpoint = mode === "register" ? "/api/auth/register" : "/api/auth/login";
+      const data = await postJson(endpoint, { email, password });
+      onAuthenticated(data.user);
+    } catch (requestError) {
+      setError(requestError.message);
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  function changeMode(nextMode) {
+    setMode(nextMode);
+    setError("");
+    setPassword("");
+    setConfirmPassword("");
+  }
+
+  return (
+    <main className="auth-page">
+      <section className="auth-card">
+        <div className="auth-brand">
+          <div className="brand-mark"><Hand size={22} /></div>
+          <div><strong>SignBridge</strong><span>Sign recognition lab</span></div>
+        </div>
+        <span className="eyebrow">Espace sécurisé</span>
+        <h1>{mode === "login" ? "Connexion" : "Créer un compte"}</h1>
+        <p>Connectez-vous pour accéder à votre plateforme et à votre historique.</p>
+        <div className="auth-tabs">
+          <button type="button" className={mode === "login" ? "selected" : ""} onClick={() => changeMode("login")}>Connexion</button>
+          <button type="button" className={mode === "register" ? "selected" : ""} onClick={() => changeMode("register")}>Inscription</button>
+        </div>
+        <form className="auth-form" onSubmit={submit}>
+          <label>
+            Adresse e-mail
+            <input
+              type="email"
+              autoComplete="email"
+              required
+              maxLength={254}
+              value={email}
+              onChange={(event) => setEmail(event.target.value)}
+            />
+          </label>
+          <label>
+            Mot de passe
+            <input
+              type="password"
+              autoComplete={mode === "login" ? "current-password" : "new-password"}
+              required
+              minLength={12}
+              maxLength={128}
+              value={password}
+              onChange={(event) => setPassword(event.target.value)}
+            />
+          </label>
+          {mode === "register" && (
+            <label>
+              Confirmer le mot de passe
+              <input
+                type="password"
+                autoComplete="new-password"
+                required
+                minLength={12}
+                maxLength={128}
+                value={confirmPassword}
+                onChange={(event) => setConfirmPassword(event.target.value)}
+              />
+            </label>
+          )}
+          {error && <p className="form-error" role="alert">{error}</p>}
+          <button className="primary-button" type="submit" disabled={busy}>
+            {busy ? "Veuillez patienter..." : mode === "login" ? "Se connecter" : "Créer mon compte"}
+          </button>
+          <small>Le mot de passe doit contenir au moins 12 caractères.</small>
+        </form>
+      </section>
+    </main>
   );
 }
 
@@ -379,7 +533,7 @@ function LiveDemo() {
           <h2>{ready ? "Modèle final disponible" : "Application live en attente"}</h2>
           <p>
             {ready
-              ? "Sélectionnez le checkpoint final et lancez le script de reconnaissance."
+              ? "Lancez la reconnaissance depuis le terminal. Avec l'option d'historique, les signes détectés seront enregistrés sur votre compte."
               : "Aucun fichier final.pt n'est présent. Entraînez le modèle Transformer hand-local avant l'inférence."}
           </p>
           <button className="primary-button" disabled={!ready}>
@@ -395,9 +549,71 @@ function LiveDemo() {
         </article>
         <article className="panel">
           <div className="panel-heading"><div><span className="panel-kicker">Tester</span><h2>Détection live</h2></div></div>
-          <pre>python -m src.live_demo --checkpoint models/transformer_final/final.pt</pre>
+          <pre>python -m src.live_demo --checkpoint models/transformer_final/final.pt --record-history</pre>
+          <p className="panel-caption">Le terminal vous demandera votre adresse e-mail et votre mot de passe avant d'enregistrer les signes reconnus.</p>
         </article>
       </section>
+    </>
+  );
+}
+
+function HistoryPage({ user }) {
+  const [data, setData] = useState(null);
+  const [error, setError] = useState("");
+
+  useEffect(() => {
+    getJson("/api/history")
+      .then(setData)
+      .catch((requestError) => setError(requestError.message));
+  }, []);
+
+  return (
+    <>
+      <PageHeader
+        eyebrow="Compte"
+        title="Historique"
+        description={user.role === "admin"
+          ? "Historique des accès et des signes reconnus pour tous les utilisateurs."
+          : "Historique privé des accès et des signes reconnus sur votre compte."}
+      />
+      {error && <p className="form-error" role="alert">{error}</p>}
+      {!data && !error && <Loading />}
+      {data && (
+        <article className="panel history-panel">
+          <div className="panel-heading">
+            <div>
+              <span className="panel-kicker">{data.scope === "all" ? "Vue administrateur" : user.email}</span>
+              <h2>{data.events.length} événement{data.events.length === 1 ? "" : "s"}</h2>
+            </div>
+          </div>
+          {data.events.length === 0 ? (
+            <p className="empty-history">Aucun événement pour le moment. Les connexions et les signes reconnus apparaîtront ici.</p>
+          ) : (
+            <div className="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    {data.scope === "all" && <th>Utilisateur</th>}
+                    <th>Date et heure</th><th>Événement</th><th>Confiance</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {data.events.map((event) => (
+                    <tr key={event.id}>
+                      {data.scope === "all" && <td>{event.email}</td>}
+                      <td>{new Date(event.created_at).toLocaleString()}</td>
+                      <td>{event.event_type === "sign"
+                        ? `Signe reconnu : ${event.label}`
+                        : ({ register: "Compte créé", login: "Connexion", logout: "Déconnexion" }[event.event_type] || event.event_type)}</td>
+                      <td>{event.confidence === null ? "—" : `${(event.confidence * 100).toFixed(1)}%`}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+        </article>
+      )}
     </>
   );
 }
